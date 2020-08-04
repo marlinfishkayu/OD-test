@@ -6,31 +6,31 @@
     font-style: normal;
     font-weight: 100;
 }
-
-// @font-face {
-//     src: url("../fonts/Gotham-Ultra.otf");
-//     font-family: "Gotham-Ultra";
-//     font-style: normal;
-//     font-weight: 100;
-// }
 @font-face {
-    src: url("../fonts/Gotham-Black.otf");
     font-family: "Gotham-Black";
+    src: url('../fonts/Gotham-Black.eot');  /* IE 9 - 11 */
+    src: url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'), /* IE Fix for IE 6-8*/
+         url('../fonts/Gotham-Black.woff') format('woff'); /* IE 9-11 & All Modern Browsers */
     font-style: normal;
     font-weight: 100;
 }
 @font-face {
-    src: url("../fonts/Gotham-Medium.otf");
     font-family: "Gotham-Medium";
+    src: url('../fonts/Gotham-Medium.eot');  /* IE 9 - 11 */
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE Fix for IE 6-8*/
+         url('../fonts/Gotham-Medium.woff') format('woff'); /* IE 9-11 & All Modern Browsers */
     font-style: normal;
     font-weight: 100;
 }
 @font-face {
-    src: url("../fonts/Gotham-Bold.otf");
     font-family: "Gotham-Bold";
+    src: url('../fonts/Gotham-Bold.eot');  /* IE 9 - 11 */
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE Fix for IE 6-8*/
+         url('../fonts/Gotham-Bold.woff') format('woff'); /* IE 9-11 & All Modern Browsers */
     font-style: normal;
     font-weight: 100;
 }
+
 html {
     font-size: 62.5%;
 }
