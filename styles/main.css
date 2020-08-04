@@ -2566,7 +2566,8 @@ label {
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .intro-video,
-  .intro-IE {
+  .intro-IE,
+  #notTooBig .clip {
     display: none;
   }
   .notTooBig-IE {
@@ -2583,13 +2584,10 @@ label {
     height: 90rem;
     background-image: url(../images/IE/IE_homepage.jpg);
   }
-  .inotTooBig-IE {
+  .notTooBig-IE {
     width: 100%;
     height: 30rem;
     background-image: url(../images/IE/IE_NotTooBig.png);
-  }
-  #notTooBig .clip {
-    display: none;
   }
   .nav-links {
     display: none;
