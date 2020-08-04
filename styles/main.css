@@ -1,7 +1,10 @@
 @charset "UTF-8";
 @font-face {
-  src: url("../fonts/Gotham-Ultra.otf");
   font-family: "Gotham-Ultra";
+  src: url("../fonts/Gotham-Ultra.eot");
+  /* IE 9 - 11 */
+  src: url("../fonts/Gotham-Ultra.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.woff") format("woff");
+  /* IE 9-11 & All Modern Browsers */
   font-style: normal;
   font-weight: 100;
 }
@@ -1220,7 +1223,7 @@ nav .open .nav-item {
 
 .section-career .card-content .job-list {
   font-size: 2.25rem;
-  font-family: Gotham-Medium ,'Montserrat';
+  font-family: Gotham-Medium;
   text-align: left;
   padding-bottom: 5rem;
 }
@@ -1238,7 +1241,7 @@ nav .open .nav-item {
 
 .job-opport {
   font-size: 5rem;
-  font-family: Gotham-Medium,'Montserrat';
+  font-family: Gotham-Medium;
   padding-top: 2rem !important;
 }
 
@@ -1257,7 +1260,7 @@ nav .open .nav-item {
   margin: 0;
   border: none;
   font-size: 2.25rem;
-  font-family: Gotham-Medium,'Montserrat';
+  font-family: Gotham-Medium;
   text-align: left;
   padding-bottom: 3rem;
   cursor: pointer;
@@ -1305,7 +1308,7 @@ nav .open .nav-item {
 
 .strike {
   font-size: 4.375rem;
-  font-family: Gotham-Bold ,'Montserrat';
+  font-family: Gotham-Bold;
   position: relative;
   z-index: 0;
   padding: 4rem 0;
@@ -1351,7 +1354,7 @@ nav .open .nav-item {
 
 .popup_body .Pop-container p,
 .popup_body .Pop-container ul li {
-  font-family: "Muli", 'Montserrat',sans-serif, Arial, Helvetica;
+  font-family: "Muli", sans-serif, Arial, Helvetica;
   font-size: 2.5rem;
   line-height: 1.5;
   color: #fff;
@@ -2553,11 +2556,15 @@ label {
 
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  h1, h2 {
+  .section-career .card-content .job-list,
+  .job-opport,
+  .job-title {
     font-family: 'Gotham-Ultra','Montserrat';
     src: url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.otf");
-    font-weight: normal;
-    font-style: normal;
+  }
+  .section-career .send-cv h2 {
+    font-family: 'Gotham-Ultra','Montserrat';
+    src: url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.otf");
   }
   .nav-links {
     display: none;
