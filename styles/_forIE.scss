@@ -1,26 +1,6 @@
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    // h1, h2{
-    //     font-family: 'Gotham-Ultra','Montserrat';
-    //     src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
-    //      url('../fonts/Gotham-Ultra.otf') ;
-    //     font-weight: normal;
-    //     font-style: normal;
-    // }
-    //gotham -medium
-    .section-career .card-content .job-list,
-    .job-opport,
-    .job-title{
-        font-family: 'Gotham-Ultra','Montserrat';
-        src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Gotham-Ultra.otf') ;
-    }
-    //gotham-black
-    .section-career .send-cv h2{
-        font-family: 'Gotham-Ultra','Montserrat';
-        src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Gotham-Ultra.otf') ;
-    }
+    
     .nav-links{
         display: none;
     }

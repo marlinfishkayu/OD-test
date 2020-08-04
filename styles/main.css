@@ -3,8 +3,8 @@
   font-family: "Gotham-Ultra";
   src: url("../fonts/Gotham-Ultra.eot");
   /* IE 9 - 11 */
-  src: url("../fonts/Gotham-Ultra.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.woff") format("woff");
-  /* IE 9-11 & All Modern Browsers */
+  src: url("../fonts/Gotham-Ultra.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.woff") format("woff"), url("../fonts/Gotham-Ultra.ttf") format("truetype"), url("../fonts/Gotham-Ultra.svg#svgGotham-Ultra") format("svg");
+  /* Legacy iOS */
   font-style: normal;
   font-weight: 100;
 }
@@ -13,8 +13,8 @@
   font-family: "Gotham-Black";
   src: url("../fonts/Gotham-Black.eot");
   /* IE 9 - 11 */
-  src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff") format("woff");
-  /* IE 9-11 & All Modern Browsers */
+  src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black.svg#svgGotham-Black") format("svg");
+  /* Legacy iOS */
   font-style: normal;
   font-weight: 100;
 }
@@ -23,8 +23,8 @@
   font-family: "Gotham-Medium";
   src: url("../fonts/Gotham-Medium.eot");
   /* IE 9 - 11 */
-  src: url("../fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Medium.woff") format("woff");
-  /* IE 9-11 & All Modern Browsers */
+  src: url("../fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Medium.svg#svgGotham-Medium") format("svg");
+  /* Legacy iOS */
   font-style: normal;
   font-weight: 100;
 }
@@ -33,8 +33,8 @@
   font-family: "Gotham-Bold";
   src: url("../fonts/Gotham-Bold.eot");
   /* IE 9 - 11 */
-  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff");
-  /* IE 9-11 & All Modern Browsers */
+  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg#svgGotham-Bold") format("svg");
+  /* Legacy iOS */
   font-style: normal;
   font-weight: 100;
 }
@@ -2565,16 +2565,6 @@ label {
 
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .section-career .card-content .job-list,
-  .job-opport,
-  .job-title {
-    font-family: 'Gotham-Ultra','Montserrat';
-    src: url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.otf");
-  }
-  .section-career .send-cv h2 {
-    font-family: 'Gotham-Ultra','Montserrat';
-    src: url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.otf");
-  }
   .nav-links {
     display: none;
   }
