@@ -1,17 +1,29 @@
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .intro-video{
-        display: none;
-    }
+    .intro-video,
     .intro-IE{
         display: none;
-        width: 100%;
-        height: 90rem;
+    }
+    .notTooBig-IE{
+        display: block;
+    }
+    .intro-IE,
+    .notTooBig-IE{
         width: auto;
-        background-image: url(../images/IE/IE_homepage.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .intro-IE{
+        width: 100%;
+        height: 90rem;
+        background-image: url(../images/IE/IE_homepage.jpg);
+    }
+    .inotTooBig-IE{
+        width: 100%;
+        height: 30rem;
+        background-image: url(../images/IE/IE_NotTooBig.png);
+    }
+    
     .nav-links{
         display: none;
     }
