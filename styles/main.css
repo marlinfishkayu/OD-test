@@ -2588,6 +2588,9 @@ label {
     height: 30rem;
     background-image: url(../images/IE/IE_NotTooBig.png);
   }
+  #notTooBig .clip {
+    display: none;
+  }
   .nav-links {
     display: none;
   }
