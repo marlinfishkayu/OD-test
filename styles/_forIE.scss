@@ -1,0 +1,21 @@
+/* IE10+ CSS styles go here */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    h1, h2{
+        font-family: 'Gotham-Ultra';
+        src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Ultra.otf') ;
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+}
+// @supports (-ms-accelerator:true) {
+//     /* IE Edge 12+ CSS styles go here */ 
+// h1, h2{
+//     font-family: 'Gotham-Ultra',  'Josefin Sans', sans-serif;
+    
+// }
+//     .card-content h2{
+//         color:red;
+//     }
+
