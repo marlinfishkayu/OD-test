@@ -1,10 +1,20 @@
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    
+    .intro-video{
+        display: none;
+    }
+    .intro-IE{
+        display: none;
+    }
     .nav-links{
         display: none;
     }
-    
+    @media all and (min-width: 1201px) {
+        .intro-IE{
+            display: block;
+        }
+
+    }
 }
 // @supports (-ms-accelerator:true) {
 //     /* IE Edge 12+ CSS styles go here */ 
