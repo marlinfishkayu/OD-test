@@ -2608,6 +2608,7 @@ label {
     height: 70rem;
   }
   .drop-IE {
+    height: 70rem;
     background-image: url(../images/IE/IE_CoreValues.png);
   }
 }
@@ -2618,6 +2619,9 @@ label {
   }
   .notTooBig-IE {
     height: 40rem;
+  }
+  .drop-IE {
+    height: 70rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
