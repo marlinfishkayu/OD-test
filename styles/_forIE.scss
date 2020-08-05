@@ -85,7 +85,7 @@
         padding-top: 0;
     }
     .service-IE{
-        height: 90rem;
+        height: 64rem;
         width: auto;
     }
     #ProductDev{
@@ -119,6 +119,9 @@
     @media all and (min-width: 600px) {
         .drop-IE{
             height: 166rem;
+        }
+        .service-IE{
+            height: 70rem;
         }
     }
     @media all and (min-width: 700px) {
