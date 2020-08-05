@@ -1945,10 +1945,6 @@ nav .open .nav-item {
   display: none;
 }
 
-.service-IE {
-  display: none;
-}
-
 /* mobile only */
 @media all and (max-width: 700px) {
   .card-content #service {
