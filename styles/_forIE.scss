@@ -92,7 +92,7 @@
         width: 66rem;
     }
     .tab-content{
-        margin-top: -5rem;
+        padding-top: 0rem;
     }
     #ProductDev{
         background-image: url(../images/IE/ProductDev-IE.png);
@@ -186,6 +186,7 @@
         .service-IE{
             width: 58rem;
             margin-top: -5rem;
+            height: 55rem;
         }
         .deco-wrap-IE,
         .deco-wrap2-IE{
@@ -194,6 +195,10 @@
         }
         .deco-wrap2-IE{
             right: 3%;
+            bottom: -25%;
+        }
+        .tab-content{
+            margin-top: -5rem;
         }
     }
     @media all and (min-width: 1920px) {
