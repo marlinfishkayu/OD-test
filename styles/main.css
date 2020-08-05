@@ -2609,7 +2609,6 @@ label {
   }
   .deco-wrap-IE {
     position: absolute;
-    border: 1px solid red;
     z-index: 1;
     bottom: 5%;
     right: 8%;
@@ -2695,6 +2694,11 @@ label {
     width: 66rem;
     margin-left: -53rem;
   }
+  .deco-wrap-IE,
+  .deco-wrap2-IE {
+    width: 80px;
+    height: 300px;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 1201px), all and (-ms-high-contrast: active) and (min-width: 1201px) {
@@ -2705,7 +2709,7 @@ label {
     height: 40rem;
   }
   .drop-IE {
-    height: 70rem;
+    height: 100rem;
   }
   .service-IE {
     width: 58rem;
