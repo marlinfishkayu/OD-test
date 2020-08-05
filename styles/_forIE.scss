@@ -12,7 +12,8 @@
     .drop-IE,
     .service-IE,
     .wayToGo-IE,
-    .deco-wrap-IE{
+    .deco-wrap-IE,
+    .deco-wrap2-IE{
         display: block;
     }
     .intro-IE,
@@ -28,12 +29,17 @@
         height: 90rem;
         background-image: url(../images/IE/IE_homepage.jpg);
     }
-    .notTooBig-IE{
+    #notTooBigIE{
         width: 100%;
         height: 60rem;
         background-image: url(../images/IE/IE_NotTooBig.png);
     }
     .wayToGo-IE{
+        width: 63rem;
+        height: 50rem;
+        background-image: url(../images/IE/IE_WayToGoTeam.png);
+    }
+    #wayToGo-IE{
         width: 63rem;
         height: 50rem;
         background-image: url(../images/IE/IE_WayToGoTeam.png);
@@ -56,7 +62,7 @@
     }
     .deco-wrap2-IE{
         position: absolute;
-        z-index: -1;
+        z-index: 1;
         bottom: -25%;
         right: 5%;
         width: 46px;
@@ -119,6 +125,9 @@
         .notTooBig-IE{
             height: 70rem;
         }
+        .notTooBig-IE{
+            height: 70rem;
+        }
         .drop-IE{
             height: 70rem;
             background-image: url(../images/IE/IE_CoreValues.png);
@@ -131,7 +140,7 @@
         .deco-wrap-IE,
         .deco-wrap2-IE{
             width: 60px;
-            height: 200px;
+            height: 210px;
         }
     }
     @media all and (min-width: 1201px) {
