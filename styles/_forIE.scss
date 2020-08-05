@@ -88,8 +88,11 @@
         padding-top: 0;
     }
     .service-IE{
-        height: 64rem;
-        width: auto;
+        height: 70rem;
+        width: 66rem;
+    }
+    .tab-content{
+        margin-top: -5rem;
     }
     #ProductDev{
         background-image: url(../images/IE/ProductDev-IE.png);
@@ -118,8 +121,10 @@
     .nav-links{
         right: -100%;
         opacity: 0;
+        line-height: normal;
+        padding: 5rem;
         transition-timing-function: ease-in-out;
-        transition: all 0.3s;
+        transition: all 0.5s;
     }
     .nav-links.open{
         right: 0%;
@@ -157,6 +162,9 @@
         .deco-wrap2-IE{
             width: 60px;
             height: 210px;
+        }
+        .deco-wrap2-IE{
+            bottom: -45%;
         }
     }
     @media all and (min-width: 1201px) {
