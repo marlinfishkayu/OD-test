@@ -2573,7 +2573,8 @@ label {
     display: none;
   }
   .notTooBig-IE,
-  .drop-IE {
+  .drop-IE,
+  .productDev-IE {
     display: block;
   }
   .intro-IE,
@@ -2597,6 +2598,11 @@ label {
     width: 100%;
     height: 60rem;
     background-image: url(../images/IE/IE_CoreValues.png);
+  }
+  .productDev-IE {
+    width: 100%;
+    height: 60rem;
+    background-image: url(../images/IE/ProductDev-IE.png);
   }
   .nav-links {
     display: none;
