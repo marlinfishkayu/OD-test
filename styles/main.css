@@ -2603,11 +2603,12 @@ label {
     height: 60rem;
     background-image: url(../images/IE/IE_CoreValues.png);
   }
-  .productDev-IE {
+  .productDev-IE .IE-img {
     height: 30rem;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-image: url(../images/IE/IE_CoreValues.png);
   }
   .nav-links {
     display: none;
