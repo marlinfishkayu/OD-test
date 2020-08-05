@@ -1945,6 +1945,10 @@ nav .open .nav-item {
   display: none;
 }
 
+.service-IE {
+  display: none;
+}
+
 /* mobile only */
 @media all and (max-width: 700px) {
   .card-content #service {
@@ -2574,7 +2578,7 @@ label {
   }
   .notTooBig-IE,
   .drop-IE,
-  .productDev-IE {
+  .service-IE {
     display: block;
   }
   .intro-IE,
@@ -2604,8 +2608,6 @@ label {
     height: 100%;
   }
   .IE-img {
-    width: 30rem;
-    height: 50rem;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100%;
