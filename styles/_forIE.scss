@@ -31,7 +31,9 @@
     }
     #notTooBigIE{
         width: 100%;
-        height: 60rem;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
         background-image: url(../images/IE/IE_NotTooBig.png);
     }
     .wayToGo-IE{
@@ -128,11 +130,8 @@
         .notTooBig-IE{
             height: 70rem;
         }
-        .notTooBig-IE{
-            height: 70rem;
-        }
         .drop-IE{
-            height: 70rem;
+            height: 86rem;
             background-image: url(../images/IE/IE_CoreValues.png);
         }
         .service-IE{
