@@ -2679,6 +2679,12 @@ label {
     background-repeat: no-repeat;
     background-size: 100%;
   }
+  .nav-links {
+    right: -100%;
+  }
+  .nav-links.open {
+    right: 0%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 500px), all and (-ms-high-contrast: active) and (min-width: 500px) {
