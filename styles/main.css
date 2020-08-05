@@ -2599,7 +2599,7 @@ label {
     background-image: url(../images/IE/IE_NotTooBig.png);
   }
   .wayToGo-IE {
-    width: 100%;
+    width: 50rem;
     height: 60rem;
     background-image: url(../images/IE/IE_WayToGoTeam.png);
   }
