@@ -117,9 +117,13 @@
     }
     .nav-links{
         right: -100%;
+        opacity: 0;
+        transition-timing-function: ease-in-out;
+        transition: all 0.3s;
     }
     .nav-links.open{
         right: 0%;
+        opacity: 1;
     }
     // .nav-links{
     //     display: none;

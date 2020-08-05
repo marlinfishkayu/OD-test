@@ -2681,9 +2681,15 @@ label {
   }
   .nav-links {
     right: -100%;
+    opacity: 0;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .nav-links.open {
     right: 0%;
+    opacity: 1;
   }
 }
 
