@@ -2571,7 +2571,8 @@ label {
   #drop-desktop,
   #dropMobileAnim,
   #wayToGoAnim,
-  .deco-4 {
+  .deco-4,
+  .service-wrap .clip {
     display: none;
   }
   .notTooBig-IE,

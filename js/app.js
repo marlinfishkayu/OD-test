@@ -1,20 +1,8 @@
 
-
-
-// var toggleStatus = 1;
-// function toggleMenu(){
-//   if (toggleStatus == 1){
-//     hamburger.classList.add("open");
-//     navLinks.classList.add("open");
-//     toggleStatus = 0;
-//   }
-// }
-
 //Navbar toggle
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelector(".nav-item");
-
 
 $(document).ready(function(){
   $(hamburger).click(function(){
@@ -24,12 +12,6 @@ $(document).ready(function(){
 });
 
 
-
-// hamburger.addEventListener("click", () => {
-//     navLinks.classList.toggle("open");
-//     hamburger.classList.toggle("open");
-// });
-
 //Nav-link toggle
 $(document).ready(function(){
 $('.nav-item').on('click', function(){
@@ -37,8 +19,6 @@ $('.nav-item').on('click', function(){
     $('.hamburger').removeClass('open');
 })
 });
-
-
 
 
 //Service Lottie animation
