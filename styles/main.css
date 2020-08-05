@@ -1845,6 +1845,11 @@ nav .open .nav-item {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 160px #fff;
 }
 
+.btn.focus, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 /* Dynamic Tabs*/
 #servicesTab .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -1942,6 +1947,10 @@ nav .open .nav-item {
 }
 
 .breakline {
+  display: none;
+}
+
+#actionBtnIE {
   display: none;
 }
 
@@ -2680,9 +2689,8 @@ label {
   .section-services .action a:hover span {
     opacity: 1;
   }
-  .btn.focus, .btn:focus {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+  #actionBtnIE {
+    display: block;
   }
   .IE-img {
     width: 100%;
@@ -2761,6 +2769,9 @@ label {
   .deco-wrap2-IE {
     width: 80px;
     height: 300px;
+  }
+  .deco-wrap2-IE {
+    right: 3%;
   }
 }
 

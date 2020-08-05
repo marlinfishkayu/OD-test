@@ -72,7 +72,9 @@
 .action a:hover span {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 160px #fff;
 }
-
+.btn.focus, .btn:focus{
+    box-shadow: none;
+}
 /* Dynamic Tabs*/
 
 #servicesTab .nav-pills .nav-link.active,
@@ -158,7 +160,9 @@
 .breakline {
     display: none;
 }
-
+#actionBtnIE{
+    display: none;
+}
 /* mobile only */
 @media all and (max-width: 700px) {
     .card-content #service {
