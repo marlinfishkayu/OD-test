@@ -2663,7 +2663,6 @@ label {
   }
   .service-IE {
     height: 70rem;
-    width: 66rem;
   }
   .tab-content {
     padding-top: 0rem;
@@ -2731,7 +2730,7 @@ label {
     height: 166rem;
   }
   .service-IE {
-    height: 70rem;
+    height: 90rem;
   }
 }
 
@@ -2746,6 +2745,7 @@ label {
   .service-IE {
     min-height: 66rem;
     height: auto;
+    width: 66rem;
   }
   .deco-wrap-IE,
   .deco-wrap2-IE {
@@ -2780,9 +2780,6 @@ label {
   .deco-wrap2-IE {
     right: 3%;
     bottom: -25%;
-  }
-  .tab-content {
-    margin-top: -5rem;
   }
 }
 

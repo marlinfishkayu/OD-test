@@ -89,7 +89,6 @@
     }
     .service-IE{
         height: 70rem;
-        width: 66rem;
     }
     .tab-content{
         padding-top: 0rem;
@@ -155,7 +154,7 @@
             height: 166rem;
         }
         .service-IE{
-            height: 70rem;
+            height: 90rem;
         }
     }
     @media all and (min-width: 700px) {
@@ -169,6 +168,7 @@
         .service-IE{
             min-height: 66rem;
             height: auto;
+            width:66rem;
         }
         .deco-wrap-IE,
         .deco-wrap2-IE{
@@ -203,9 +203,7 @@
             right: 3%;
             bottom: -25%;
         }
-        .tab-content{
-            margin-top: -5rem;
-        }
+        
     }
     @media all and (min-width: 1920px) {
         .service-IE{
@@ -213,6 +211,7 @@
             margin-right: -15rem;
             margin-top: -8rem;
         }
+        
     }
 }
 // @supports (-ms-accelerator:true) {
