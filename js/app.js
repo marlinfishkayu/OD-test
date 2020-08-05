@@ -9,10 +9,17 @@ const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelector(".nav-item");
 
-hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("open");
-    hamburger.classList.toggle("open");
-});
+// hamburger.addEventListener("click", () => {
+//     navLinks.classList.toggle("open");
+//     hamburger.classList.toggle("open");
+// });
+$(document).ready(function(){
+  $('.hamburger').on('click', function(){
+      $('.nav-links').addClass('open');
+      $('.hamburger').addClass('open');
+  })
+  });
+
 
 //Nav-link toggle
 $(document).ready(function(){
