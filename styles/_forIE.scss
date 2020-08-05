@@ -80,7 +80,6 @@
             height: auto;
             width: 66rem;
             margin-left: -53rem;
-            
         }
     }
     @media all and (min-width: 1201px) {
@@ -96,6 +95,14 @@
         .service-IE{
             width: 58rem;
             margin-top: -5rem;
+        }
+    }
+    @media all and (min-width: 1920px) {
+        .service-IE{
+            width: 68rem;
+            margin-right: -9rem;
+            margin-top: -8rem;
+            margin-left: -43rem;
         }
     }
 }

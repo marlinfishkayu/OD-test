@@ -1910,7 +1910,7 @@ nav .open .nav-item {
 
 #animation .slide-text,
 #animation li {
-  font-family: "Muli Light",'Montserrat',sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Muli Light",sans-serif, Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.4;
   font-weight: 400;
@@ -2660,6 +2660,15 @@ label {
   .service-IE {
     width: 58rem;
     margin-top: -5rem;
+  }
+}
+
+@media all and (-ms-high-contrast: none) and (min-width: 1920px), all and (-ms-high-contrast: active) and (min-width: 1920px) {
+  .service-IE {
+    width: 68rem;
+    margin-right: -9rem;
+    margin-top: -8rem;
+    margin-left: -43rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
