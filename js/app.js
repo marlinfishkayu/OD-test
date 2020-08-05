@@ -4,23 +4,7 @@
   
 
 
-//Navbar toggle
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelector(".nav-item");
 
-hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("open");
-    hamburger.classList.toggle("open");
-});
-
-//Nav-link toggle
-$(document).ready(function(){
-$('.nav-item').on('click', function(){
-    $('.nav-links').removeClass('open');
-    $('.hamburger').removeClass('open');
-})
-});
 
 
 
