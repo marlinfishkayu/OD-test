@@ -2681,7 +2681,7 @@ label {
   }
 }
 
-@media all and (-ms-high-contrast: none) and (min-width: 768px), all and (-ms-high-contrast: active) and (min-width: 768px) {
+@media all and (-ms-high-contrast: none) and (min-width: 700px), all and (-ms-high-contrast: active) and (min-width: 700px) {
   .notTooBig-IE {
     height: 70rem;
   }
@@ -2696,8 +2696,8 @@ label {
   }
   .deco-wrap-IE,
   .deco-wrap2-IE {
-    width: 80px;
-    height: 300px;
+    width: 60px;
+    height: 200px;
   }
 }
 
@@ -2714,6 +2714,11 @@ label {
   .service-IE {
     width: 58rem;
     margin-top: -5rem;
+  }
+  .deco-wrap-IE,
+  .deco-wrap2-IE {
+    width: 80px;
+    height: 300px;
   }
 }
 
