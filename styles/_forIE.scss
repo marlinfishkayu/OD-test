@@ -45,11 +45,25 @@
         position: absolute;
         border: 1px solid red;
         z-index: 1;
-        bottom: 1%;
-        right:0px;
-        width: 89px;
-        height: 144px;
+        bottom: 5%;
+        right: 8%;
+        width: 46x;
+        height: 172px;
     }
+    #nav2{
+        position: relative;
+        z-index: 0;
+    }
+    .deco-wrap2-IE{
+        position: absolute;
+        border: 1px solid red;
+        z-index: 1;
+        bottom: 5%;
+        right: 8%;
+        width: 46x;
+        height: 172px;
+    }
+
     .arrow-IE{
         width: 100%;
         height: 100%;
@@ -60,7 +74,7 @@
     //replace with mobil version
     .drop-IE{
         width: 100%;
-        height: 60rem;
+        height: 150rem;
         background-image: url(../images/IE/IE_CoreValues_M.png);
     }
     .service-IE{
