@@ -2,6 +2,12 @@
 //   alert('here'); 
 //   });
   
+//test
+function myFunction(data) {
+  var txt= "myPopup" + data;
+  var popup = document.getElementById(txt);
+  popup.classList.toggle("show");
+}
 
 
 //Navbar toggle
