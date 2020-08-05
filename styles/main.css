@@ -2677,6 +2677,9 @@ label {
   #QualityAss-IE {
     background-image: url(../images/IE/QualityAss-IE.png);
   }
+  .action a:hover span {
+    opacity: 1;
+  }
   .IE-img {
     width: 100%;
     height: 100%;
