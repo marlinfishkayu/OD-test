@@ -47,7 +47,7 @@
         z-index: 1;
         bottom: 5%;
         right: 8%;
-        width: 46x;
+        width: 46px;
         height: 172px;
     }
     #nav2{
@@ -56,12 +56,11 @@
     }
     .deco-wrap2-IE{
         position: absolute;
-        border: 1px solid red;
-        z-index: 1;
-        bottom: 5%;
-        right: 8%;
-        width: 46x;
-        height: 172px;
+        z-index: -1;
+        bottom: -37%;
+        right: 0;
+        width: 89px;
+        height: 144px;
     }
 
     .arrow-IE{
