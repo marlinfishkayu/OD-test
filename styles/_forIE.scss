@@ -143,6 +143,9 @@
         .service-IE{
             height: 80rem;
         }
+        .deco-wrap2-IE{
+            bottom: -50%;
+        }
     }
     @media all and (min-width: 600px) {
         .drop-IE{
@@ -161,7 +164,7 @@
             background-image: url(../images/IE/IE_CoreValues.png);
         }
         .service-IE{
-            height: auto;
+            height: 66rem;
             width: 66rem;
         }
         .deco-wrap-IE,

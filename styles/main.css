@@ -2718,6 +2718,9 @@ label {
   .service-IE {
     height: 80rem;
   }
+  .deco-wrap2-IE {
+    bottom: -50%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 600px), all and (-ms-high-contrast: active) and (min-width: 600px) {
@@ -2738,7 +2741,7 @@ label {
     background-image: url(../images/IE/IE_CoreValues.png);
   }
   .service-IE {
-    height: auto;
+    height: 66rem;
     width: 66rem;
   }
   .deco-wrap-IE,
