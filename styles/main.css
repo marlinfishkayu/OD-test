@@ -2606,6 +2606,21 @@ label {
   #ProductDev {
     background-image: url(../images/IE/ProductDev-IE.png);
   }
+  #ItSol-IE {
+    background-image: url(../images/IE/ItSol-IE.png);
+  }
+  #ItInfra-IE {
+    background-image: url(../images/IE/ItInfrastructure-IE.png);
+  }
+  #CreativeFro-IE {
+    background-image: url(../images/IE/CreativeFro-IE.png);
+  }
+  #MarketingStr-IE {
+    background-image: url(../images/IE/MarketingStr-IE.png);
+  }
+  #ItInfra-IE {
+    background-image: url(../images/IE/QualityAss-IE.png);
+  }
   .IE-img {
     width: 100%;
     height: 100%;
