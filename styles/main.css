@@ -2712,6 +2712,9 @@ label {
     right: 0%;
     opacity: 1;
   }
+  #msgSubmit {
+    background-color: #fff;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 500px), all and (-ms-high-contrast: active) and (min-width: 500px) {
@@ -2741,7 +2744,8 @@ label {
     background-image: url(../images/IE/IE_CoreValues.png);
   }
   .service-IE {
-    height: 66rem;
+    min-height: 66rem;
+    height: auto;
     width: 66rem;
   }
   .deco-wrap-IE,

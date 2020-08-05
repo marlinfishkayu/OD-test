@@ -136,6 +136,9 @@
         right: 0%;
         opacity: 1;
     }
+    #msgSubmit{
+        background-color: #fff;
+    }
     // .nav-links{
     //     display: none;
     // }
@@ -164,7 +167,8 @@
             background-image: url(../images/IE/IE_CoreValues.png);
         }
         .service-IE{
-            height: 66rem;
+            min-height: 66rem;
+            height: auto;
             width: 66rem;
         }
         .deco-wrap-IE,
