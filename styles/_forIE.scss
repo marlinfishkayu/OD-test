@@ -4,12 +4,14 @@
     .intro-IE,
     #notTooBig .clip,
     #drop-desktop,
-    #dropMobileAnim{
+    #dropMobileAnim,
+    #wayToGoAnim{
         display: none;
     }
     .notTooBig-IE,
     .drop-IE,
-    .service-IE{
+    .service-IE,
+    .wayToGo-IE{
         display: block;
     }
     .intro-IE,
@@ -28,6 +30,11 @@
         width: 100%;
         height: 60rem;
         background-image: url(../images/IE/IE_NotTooBig.png);
+    }
+    .wayToGo-IE{
+        width: 100%;
+        height: 60rem;
+        background-image: url(../images/IE/IE_WayToGoTeam.png);
     }
     //replace with mobil version
     .drop-IE{
