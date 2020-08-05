@@ -2600,6 +2600,7 @@ label {
     background-image: url(../images/IE/IE_CoreValues.png);
   }
   .service-IE {
+    height: 90rem;
     width: auto;
   }
   .IE-img {
@@ -2623,6 +2624,11 @@ label {
   .drop-IE {
     height: 70rem;
     background-image: url(../images/IE/IE_CoreValues.png);
+  }
+  .service-IE {
+    height: 500px;
+    margin-right: -8rem;
+    margin-top: -4rem;
   }
 }
 
