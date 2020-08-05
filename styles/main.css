@@ -2584,6 +2584,10 @@ label {
     background-repeat: no-repeat;
     background-size: 100%;
   }
+  .IE-img {
+    width: 100%;
+    height: 100%;
+  }
   .intro-IE {
     width: 100%;
     height: 90rem;
@@ -2600,9 +2604,10 @@ label {
     background-image: url(../images/IE/IE_CoreValues.png);
   }
   .productDev-IE {
-    width: 100%;
-    height: 60rem;
-    background-image: url(../images/IE/ProductDev-IE.png);
+    height: 30rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   .nav-links {
     display: none;
