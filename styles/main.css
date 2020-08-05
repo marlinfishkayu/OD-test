@@ -74,7 +74,7 @@ h1 {
 
 h2 {
   font-size: 10rem;
-  font-family: Gotham-Black;
+  font-family: Gotham-Black ,'Montserrat',sans-serif;
 }
 
 h3 {
@@ -1902,7 +1902,7 @@ nav .open .nav-item {
 
 #animation .slide-header {
   font-size: 4rem;
-  font-family: Gotham-Black;
+  font-family: Gotham-Black, 'Montserrat',sans-serif, Arial, Helvetica;
   color: #8fe0e7;
   padding-bottom: 1rem;
   font-weight: 600;
@@ -1910,7 +1910,7 @@ nav .open .nav-item {
 
 #animation .slide-text,
 #animation li {
-  font-family: "Muli Light",sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Muli Light",sans-serif, Arial, Helvetica;
   font-size: 17px;
   line-height: 1.4;
   font-weight: 400;
@@ -2569,12 +2569,15 @@ label {
   .intro-IE,
   #notTooBig .clip,
   #drop-desktop,
-  #dropMobileAnim {
+  #dropMobileAnim,
+  #wayToGoAnim {
     display: none;
   }
   .notTooBig-IE,
   .drop-IE,
-  .service-IE {
+  .service-IE,
+  .wayToGo-IE,
+  .arrow-IE {
     display: block;
   }
   .intro-IE,
@@ -2594,10 +2597,30 @@ label {
     height: 60rem;
     background-image: url(../images/IE/IE_NotTooBig.png);
   }
+  .wayToGo-IE {
+    width: 100%;
+    height: 60rem;
+    background-image: url(../images/IE/IE_WayToGoTeam.png);
+  }
+  #nav1 {
+    position: relative;
+    z-index: 0;
+  }
+  .arrow-IE {
+    position: absolute;
+    border: 1px solid red;
+    top: 0px;
+    right: 0px;
+    width: 30rem;
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/deco-4.svg);
+  }
   .drop-IE {
     width: 100%;
     height: 60rem;
-    background-image: url(../images/IE/IE_CoreValues.png);
+    background-image: url(../images/IE/IE_CoreValues_M.png);
   }
   .service-IE {
     height: 90rem;
@@ -2618,7 +2641,7 @@ label {
   #MarketingStr-IE {
     background-image: url(../images/IE/MarketingStr-IE.png);
   }
-  #ItInfra-IE {
+  #QualityAss-IE {
     background-image: url(../images/IE/QualityAss-IE.png);
   }
   .IE-img {
