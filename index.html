@@ -176,6 +176,8 @@
                         <div class="card-content" id="nav2">
                             <div class="deco-wrap-2">
                                 <div class="deco-4"><div id="arrowAnim2"></div></div>
+                                <!-- display for IE -->
+                                <div class="deco-4-IE"></div>
                             </div>
                             <h2>HOW?!</h2>
                             <h3>
@@ -898,26 +900,10 @@
         <!-- plugin call -->
         <script>
 
-            $(document).ready(function() {
-            alert('here'); 
-            });
-            //Navbar toggle
-            const hamburger = document.querySelector(".hamburger");
-            const navLinks = document.querySelector(".nav-links");
-            const links = document.querySelector(".nav-item");
-
-            hamburger.addEventListener("click", () => {
-                navLinks.classList.toggle("open");
-                hamburger.classList.toggle("open");
-            });
-
-            //Nav-link toggle
-            $(document).ready(function(){
-            $('.nav-item').on('click', function(){
-                $('.nav-links').removeClass('open');
-                $('.hamburger').removeClass('open');
-            })
-            });
+            // $(document).ready(function() {
+            // alert('here'); 
+            // });
+            
 
            
 
