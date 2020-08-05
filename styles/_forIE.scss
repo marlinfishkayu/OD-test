@@ -2,14 +2,18 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .intro-video,
     .intro-IE,
-    #notTooBig .clip{
+    #notTooBig .clip,
+    #drop-desktop,
+    #dropMobileAnim{
         display: none;
     }
-    .notTooBig-IE{
+    .notTooBig-IE,
+    .drop-IE{
         display: block;
     }
     .intro-IE,
-    .notTooBig-IE{
+    .notTooBig-IE,
+    .drop-IE{
         width: auto;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -19,21 +23,37 @@
         height: 90rem;
         background-image: url(../images/IE/IE_homepage.jpg);
     }
-    
-    
     .notTooBig-IE{
         width: 100%;
-        height: 30rem;
+        height: 60rem;
         background-image: url(../images/IE/IE_NotTooBig.png);
+    }
+    //replace with mobil version
+    .drop-IE{
+        width: 100%;
+        height: 60rem;
+        background-image: url(../images/IE/IE_CoreValues.png);
     }
     .nav-links{
         display: none;
+    }
+
+    @media all and (min-width: 768px) {
+        .notTooBig-IE{
+            height: 70rem;
+        }
+        //replace with mobil version
+        .drop-IE{
+            background-image: url(../images/IE/IE_CoreValues.png);
+        }
     }
     @media all and (min-width: 1201px) {
         .intro-IE{
             display: block;
         }
-
+        .notTooBig-IE{
+            height: 40rem;
+        }
     }
 }
 // @supports (-ms-accelerator:true) {
