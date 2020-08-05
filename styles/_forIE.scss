@@ -72,7 +72,6 @@
         width: 46px;
         height: 172px;
     }
-
     .arrow-IE{
         width: 100%;
         height: 100%;
@@ -153,7 +152,6 @@
         .service-IE{
             height: auto;
             width: 66rem;
-            margin-left: -53rem;
         }
         .deco-wrap-IE,
         .deco-wrap2-IE{
@@ -184,9 +182,8 @@
     @media all and (min-width: 1920px) {
         .service-IE{
             width: 68rem;
-            margin-right: -9rem;
+            margin-right: -15rem;
             margin-top: -8rem;
-            margin-left: -43rem;
         }
     }
 }

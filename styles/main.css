@@ -2720,7 +2720,6 @@ label {
   .service-IE {
     height: auto;
     width: 66rem;
-    margin-left: -53rem;
   }
   .deco-wrap-IE,
   .deco-wrap2-IE {
@@ -2753,9 +2752,8 @@ label {
 @media all and (-ms-high-contrast: none) and (min-width: 1920px), all and (-ms-high-contrast: active) and (min-width: 1920px) {
   .service-IE {
     width: 68rem;
-    margin-right: -9rem;
+    margin-right: -15rem;
     margin-top: -8rem;
-    margin-left: -43rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
