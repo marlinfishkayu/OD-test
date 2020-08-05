@@ -17,7 +17,8 @@
     }
     .intro-IE,
     .notTooBig-IE,
-    .drop-IE{
+    .drop-IE,
+    .wayToGo-IE{
         width: auto;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -57,8 +58,8 @@
     .deco-wrap2-IE{
         position: absolute;
         z-index: -1;
-        bottom: -5%;
-        right: 0;
+        bottom: -25%;
+        right: 5%;
         width: 46px;
         height: 172px;
     }
