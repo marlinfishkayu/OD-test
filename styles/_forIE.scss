@@ -12,7 +12,7 @@
     .drop-IE,
     .service-IE,
     .wayToGo-IE,
-    .arrow-IE{
+    .deco-wrap-IE{
         display: block;
     }
     .intro-IE,
@@ -41,13 +41,18 @@
         position: relative;
         z-index: 0;
     }
-    .arrow-IE{
+    .deco-wrap-IE{
         position: absolute;
         border: 1px solid red;
-        top: 0px;
+        z-index: 1;
+        bottom: 1%;
         right:0px;
-        width: 30rem;
-        height: 60rem;
+        width: 89px;
+        height: 144px;
+    }
+    .arrow-IE{
+        width: 100%;
+        height: 100%;
         background-repeat: no-repeat;
         background-size: 100%;
         background-image: url(../images/deco-4.svg);
