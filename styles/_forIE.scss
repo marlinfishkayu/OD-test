@@ -41,7 +41,7 @@
     .deco-4-IE{
         width: 100%;
         height: 60rem;
-        background-image: url(../images/IE/deco-4.svg);
+        background-image: url(../images/deco-4.svg);
     }
     //replace with mobil version
     .drop-IE{
@@ -81,6 +81,9 @@
         display: none;
     }
 
+    @media all and (min-width: 768px) {
+        
+    }
     @media all and (min-width: 768px) {
         .notTooBig-IE{
             height: 70rem;
