@@ -2683,6 +2683,12 @@ label {
   }
 }
 
+@media all and (-ms-high-contrast: none) and (min-width: 500px), all and (-ms-high-contrast: active) and (min-width: 500px) {
+  .service-IE {
+    height: 80rem;
+  }
+}
+
 @media all and (-ms-high-contrast: none) and (min-width: 600px), all and (-ms-high-contrast: active) and (min-width: 600px) {
   .drop-IE {
     height: 166rem;
