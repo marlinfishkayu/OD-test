@@ -112,8 +112,11 @@
     #QualityAss-IE{
         background-image: url(../images/IE/QualityAss-IE.png);
     }
-    .action a:hover span {
+    .section-services .action a:hover span{
         opacity: 1;
+    }
+    .btn.focus, .btn:focus{
+        box-shadow: none;
     }
     .IE-img {
         width: 100%;
