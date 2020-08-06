@@ -90,9 +90,15 @@ var animation8 = bodymovin.loadAnimation({
 
 //drop orange animation
 //this has a duration and animates the playhead on the Lottie animation for a smoother result
+// ScrollLottie({
+//   target: '#introAnim',
+//   path: 'animation/introAnim/introAnim.json', 
+//   duration: 3, 
+//   speed: 'slow'
+//  })
 ScrollLottie({
   target: '#introAnim',
-  path: 'animation/introAnim/introAnim.json', 
+  path: 'https://assets.codepen.io/35984/tapered_hello.json', 
   duration: 3, 
   speed: 'slow'
  })
