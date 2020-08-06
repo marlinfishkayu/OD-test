@@ -98,14 +98,14 @@ var animation8 = bodymovin.loadAnimation({
 //  })
 ScrollLottie({
   target: '#introAnim',
-  path: 'https://assets.codepen.io/35984/tapered_hello.json', 
+  path: 'https://assets7.lottiefiles.com/packages/lf20_W6HJdT/introAnim/introAnim.json', 
   duration: 3, 
   speed: 'slow'
  })
 
  ScrollLottie({
   target: '#dropAnim',
-  path: 'animation/dropAnim/dropAnim.json', 
+  path: 'https://assets4.lottiefiles.com/packages/lf20_rV8sNn/dropAnim/dropAnim.json', 
   duration: 6, 
   speed: 'slow'
  })
@@ -129,10 +129,10 @@ LottieInteractivity.create({
   ]  
 });
 
-ScrollLottie({
-  target: '#animationWindow',
-  path: 'https://assets.codepen.io/35984/tapered_hello.json', 
-  duration: 4, 
-  speed: 'medium'
- })
+// ScrollLottie({
+//   target: '#animationWindow',
+//   path: 'https://assets.codepen.io/35984/tapered_hello.json', 
+//   duration: 4, 
+//   speed: 'medium'
+//  })
  
