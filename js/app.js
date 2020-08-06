@@ -98,7 +98,7 @@ var animation8 = bodymovin.loadAnimation({
 //  })
 ScrollLottie({
   target: '#introAnim',
-  path: 'https://assets.codepen.io/35984/tapered_hello.json', 
+  path: 'https://assets7.lottiefiles.com/packages/lf20_W6HJdT/introAnim/introAnim.json', 
   duration: 3, 
   speed: 'slow'
  })
