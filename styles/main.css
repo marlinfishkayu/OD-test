@@ -186,13 +186,11 @@ img {
 }
 
 .emoji {
-  width: 36px;
-  height: 36px;
-  margin-bottom: -8px;
   border: 0;
-  width: 16px;
-  height: 16px;
+  width: 30px;
+  height: 30px;
   margin-bottom: -2px;
+  margin-right: 2px;
 }
 
 /* Tablet */
