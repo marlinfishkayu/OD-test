@@ -185,14 +185,6 @@ img {
   background-color: #f2f0f7;
 }
 
-.emoji {
-  border: 0;
-  width: 30px;
-  height: 30px;
-  margin-bottom: -2px;
-  margin-right: 2px;
-}
-
 /* Tablet */
 @media all and (max-width: 1200px) and (min-width: 700px) {
   h1 {

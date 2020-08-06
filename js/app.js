@@ -136,3 +136,5 @@ LottieInteractivity.create({
 //   speed: 'medium'
 //  })
  
+var emoji = document.querySelector("#emoji");
+emoji.innerText = "👩🏻‍🔧";
