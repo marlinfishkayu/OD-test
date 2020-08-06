@@ -136,5 +136,3 @@ LottieInteractivity.create({
 //   speed: 'medium'
 //  })
  
- // I \u2764 emoji!
- twemoji.parse(document.body);
