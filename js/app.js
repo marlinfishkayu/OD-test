@@ -98,7 +98,7 @@ var animation8 = bodymovin.loadAnimation({
 //  })
 ScrollLottie({
   target: '#introAnim',
-  path: 'https://assets7.lottiefiles.com/packages/lf20_W6HJdT/introAnim/introAnim.json', 
+  path: 'https://assets.codepen.io/35984/tapered_hello.json', 
   duration: 3, 
   speed: 'slow'
  })
@@ -136,3 +136,5 @@ LottieInteractivity.create({
 //   speed: 'medium'
 //  })
  
+ // I \u2764 emoji!
+ twemoji.parse(document.body);
