@@ -3,7 +3,22 @@
     display: block;
     height: 90rem;
 }
-
+.values{
+    width: 40rem;
+    margin: 0 auto;
+}
+.values img{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.core-value h2{
+    font-size: 12rem;
+}
+.core-value h6{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
 // .drop-IE{
 //     display: block;
 //     width: auto;
@@ -21,7 +36,15 @@
 }
 /* Tablet */
 @media all and (max-width: 1200px) and (min-width: 768px) {
-
+    .values{
+        width: 20rem;
+    }
+    .core-value h2{
+        font-size: 10rem;
+    }
+    .core-value h6{
+        font-size: 2.5rem;
+    }
     .section-value {
         height: 150rem;
     }
@@ -29,5 +52,11 @@
 @media all and (min-width: 1201px) {
     .section-value{
         height: 100rem;
+    }
+    .values{
+        width: 25rem;
+    }
+    .core-value h2{
+        font-size: 8rem;
     }
 }
