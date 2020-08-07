@@ -1,4 +1,4 @@
-/* IE10+ CSS styles go here */
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .intro-video,
     #notTooBig .clip,
@@ -121,9 +121,6 @@
     #msgSubmit{
         background-color: #fff;
     }
-    // .nav-links{
-    //     display: none;
-    // }
     @media all and (min-width: 500px) {
         .service-IE{
             height: 80rem;

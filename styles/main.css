@@ -329,7 +329,6 @@ img {
   }
 }
 
-/* mobile */
 .heading-m {
   position: absolute;
   z-index: 1;
@@ -454,9 +453,6 @@ img {
   }
 }
 
-/*-------------------------------*/
-/*           navbar              */
-/*-------------------------------*/
 .nav-contianer {
   position: relative;
   z-index: 2;
@@ -777,7 +773,6 @@ nav .open .nav-item {
   }
 }
 
-/* mobile */
 .card-content h2 {
   padding-bottom: 2rem;
   padding-top: 10rem;
@@ -1223,8 +1218,7 @@ nav .open .nav-item {
 
 .section-career .card-content .career-logo {
   padding-top: 0rem;
-  width: 51rem;
-  height: 54rem;
+  height: 58rem;
   margin: 0 auto;
 }
 
@@ -1718,7 +1712,6 @@ nav .open .nav-item {
   }
 }
 
-/* Mobile */
 .section-value {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2120,7 +2113,6 @@ nav .open .nav-item {
   }
 }
 
-/* Mobile */
 #contact {
   position: relative;
   z-index: 0;
@@ -2593,7 +2585,6 @@ label {
   }
 }
 
-/* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .intro-video,
   #notTooBig .clip,
