@@ -1252,6 +1252,7 @@ nav .open .nav-item {
   font-size: 5rem;
   font-family: Gotham-Medium;
   padding-top: 2rem !important;
+  margin-bottom: 3rem;
 }
 
 .job-link {
