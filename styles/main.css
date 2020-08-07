@@ -1312,7 +1312,7 @@ nav .open .nav-item {
 /* pop up */
 /* popup box style */
 .job-header {
-  padding: 8rem 12rem;
+  padding: 5rem 6rem;
 }
 
 .strike {
@@ -1384,7 +1384,7 @@ nav .open .nav-item {
 .Pop-detail {
   background-color: #fff;
   color: #000000;
-  padding: 0 12rem;
+  padding: 0 6rem;
 }
 
 .apply-wrap {
@@ -1566,6 +1566,10 @@ nav .open .nav-item {
   padding-right: 0 !important;
 }
 
+button.close {
+  background-color: #233e97;
+}
+
 /* Tablet */
 @media all and (max-width: 388px) {
   #Programmer .strike::after {
@@ -1697,7 +1701,7 @@ nav .open .nav-item {
     height: 21px;
   }
   #Programmer .strike::after {
-    width: 96%;
+    width: 84%;
   }
   #UIDesigner .strike::after {
     width: 372px;
@@ -1746,6 +1750,9 @@ nav .open .nav-item {
   }
   .Pop-detail {
     padding: 0 12rem;
+  }
+  .job-header {
+    padding: 8rem 12rem;
   }
   .strike::after {
     width: 57%;
@@ -1802,7 +1809,7 @@ nav .open .nav-item {
 }
 
 .core-value h2 {
-  font-size: 7rem;
+  font-size: 9rem;
   margin-bottom: 5rem;
 }
 
