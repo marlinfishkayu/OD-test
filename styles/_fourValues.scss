@@ -1,59 +1,33 @@
 /* Mobile */
 .section-value {
     display: block;
+    height: 90rem;
 }
-.section-value {
-    display: block;
-}
-#drop-mobile {
-    display: block;
-}
-#drop-mobile .sub-header {
-    padding-top: 10rem;
-}
-.drop-IE{
-    display: block;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 120rem;
-    background-image: url(../images/IE/IE_CoreValues_M.png);
-}
-#wrapper .section-value {
-    height: 120rem;
-}
+
+// .drop-IE{
+//     display: block;
+//     width: auto;
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     width: 100%;
+//     height: 120rem;
+//     background-image: url(../images/IE/IE_CoreValues_M.png);
+// }
+
 @media all and (min-width: 600px) {
-    .drop-IE{
+    .section-value{
         height: 166rem;
     }
 }
 /* Tablet */
 @media all and (max-width: 1200px) and (min-width: 768px) {
-    .fourValues-m {
-        display: block;
-        width: 80%;
-    }
+
     .section-value {
-        display: block;
-    }
-    .section-value {
-        display: block;
-    }
-    #wrapper .section-value {
         height: 150rem;
-    }
-    .drop-IE{
-        height: 86rem;
-        background-image: url(../images/IE/IE_CoreValues.png);
     }
 }
 @media all and (min-width: 1201px) {
-    .section-value {
-        display: none;
-    }
-    .drop-IE{
+    .section-value{
         height: 100rem;
-        background-image: url(../images/IE/IE_CoreValues.png);
     }
 }
