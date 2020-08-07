@@ -18,7 +18,6 @@
     }
     .notTooBig-IE,
     .wayToGo-IE{
-        width: auto;
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -30,13 +29,8 @@
         background-image: url(../images/IE/IE_NotTooBig.png);
     }
     .wayToGo-IE{
-        width: 63rem;
-        height: 50rem;
-        background-image: url(../images/IE/IE_WayToGoTeam.png);
-    }
-    #wayToGo-IE{
-        width: 63rem;
-        height: 50rem;
+        width: 100%;
+        height: 100%;
         background-image: url(../images/IE/IE_WayToGoTeam.png);
     }
     #nav1{
