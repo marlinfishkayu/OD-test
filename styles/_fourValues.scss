@@ -1,10 +1,11 @@
 /* Mobile */
 .section-value {
-    display: block;
+    display: flex;
     height: 90rem;
 }
 .values{
-    width: 40rem;
+    width: 20rem;
+    height: 20rem;
     margin: 0 auto;
 }
 .values img{
@@ -13,11 +14,15 @@
     background-repeat: no-repeat;
 }
 .core-value h2{
-    font-size: 12rem;
+    font-size: 6rem;
+    margin-bottom: 5rem;
 }
 .core-value h6{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 800;
+}
+.core-value .col-6{
+    margin-bottom: 3rem;
 }
 // .drop-IE{
 //     display: block;
@@ -37,10 +42,11 @@
 /* Tablet */
 @media all and (max-width: 1200px) and (min-width: 768px) {
     .values{
-        width: 20rem;
+        width: 25rem;
+        height: 25rem;
     }
     .core-value h2{
-        font-size: 10rem;
+        font-size: 12rem;
     }
     .core-value h6{
         font-size: 2.5rem;
@@ -54,9 +60,14 @@
         height: 100rem;
     }
     .values{
-        width: 25rem;
+        height: 28rem;
+    width: 28rem;
     }
     .core-value h2{
-        font-size: 8rem;
+        font-size: 9.5rem;
+        padding-bottom: 2rem;
+    }
+    .core-value .container{
+        max-width: 1200px;
     }
 }
