@@ -2394,6 +2394,7 @@ label {
   -webkit-box-shadow: transparent;
           box-shadow: transparent;
   opacity: 1 !important;
+  margin: 0 auto;
 }
 
 #contact .custom-btn:hover {
