@@ -2610,6 +2610,9 @@ label {
     background-repeat: no-repeat;
     background-size: 100%;
   }
+  .notTooBig-IE {
+    height: 30rem;
+  }
   #notTooBigIE {
     width: 100%;
     height: 100%;
