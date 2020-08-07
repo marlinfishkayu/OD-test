@@ -2744,6 +2744,10 @@ label {
   .notTooBig-IE {
     height: 80rem;
   }
+  .service-wrap {
+    margin: auto;
+    max-width: 800px;
+  }
   .service-IE {
     min-height: 66rem;
     height: auto;
