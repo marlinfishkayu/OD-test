@@ -1,7 +1,6 @@
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .intro-video,
-    .intro-IE,
     #notTooBig .clip,
     #drop-desktop,
     #dropMobileAnim,
@@ -18,18 +17,12 @@
     .deco-wrap2-IE{
         display: block;
     }
-    .intro-IE,
     .notTooBig-IE,
     .drop-IE,
     .wayToGo-IE{
         width: auto;
         background-repeat: no-repeat;
         background-size: 100%;
-    }
-    .intro-IE{
-        width: 100%;
-        height: 90rem;
-        background-image: url(../images/IE/IE_homepage.jpg);
     }
     #notTooBigIE{
         width: 100%;
@@ -180,9 +173,6 @@
         }
     }
     @media all and (min-width: 1201px) {
-        .intro-IE{
-            display: block;
-        }
         .notTooBig-IE{
             height: 40rem;
         }

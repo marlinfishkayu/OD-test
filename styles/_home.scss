@@ -22,14 +22,10 @@
     position: relative;
     z-index: 0;
 }
-.intro-video{
-    display: none;
-}
 img{
     width: 100%;
     height: 100%;
 }
-
 .intro-space {
     height: 200rem;
     width: auto;
@@ -41,7 +37,15 @@ img{
     position: relative;
     z-index: 0;
 }
-
+.intro-desktop{
+    display: none;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 90rem;
+    background-image: url(../images/IE/IE_homepage.jpg);
+}
 .spaceship-2{
     display: block;
     position: absolute;
@@ -60,9 +64,6 @@ img{
     .mars-container{
         display: block;
         height: 266rem;
-    }
-    .intro-video{
-        display: none;
     }
     .spaceship-2{
         display: block;
@@ -83,7 +84,7 @@ img{
         display: none;
     }
     .intro-wrapper{
-        display: none;
+        display: block;
     }
     .heading-m {
         top: 20%;
@@ -95,7 +96,7 @@ img{
     .mars-container{
         display: none;
     }
-    .intro-video{
+    .intro-desktop{
         display: block;
     }
     .spaceship-2{
