@@ -10,7 +10,6 @@
         display: none;
     }
     .notTooBig-IE,
-    .drop-IE,
     .service-IE,
     .wayToGo-IE,
     .deco-wrap-IE,
@@ -18,7 +17,6 @@
         display: block;
     }
     .notTooBig-IE,
-    .drop-IE,
     .wayToGo-IE{
         width: auto;
         background-repeat: no-repeat;
@@ -71,11 +69,6 @@
         background-repeat: no-repeat;
         background-size: 100%;
         background-image: url(../images/deco-4.svg);
-    }
-    .drop-IE{
-        width: 100%;
-        height: 120rem;
-        background-image: url(../images/IE/IE_CoreValues_M.png);
     }
     #drop-mobile .sub-header {
         padding-top: 0;
@@ -143,9 +136,6 @@
         }
     }
     @media all and (min-width: 600px) {
-        .drop-IE{
-            height: 166rem;
-        }
         .service-IE{
             height: 90rem;
         }
@@ -154,10 +144,7 @@
         .notTooBig-IE{
             height: 80rem;
         }
-        .drop-IE{
-            height: 86rem;
-            background-image: url(../images/IE/IE_CoreValues.png);
-        }
+        
         .service-IE{
             min-height: 66rem;
             height: auto;
@@ -175,9 +162,6 @@
     @media all and (min-width: 1201px) {
         .notTooBig-IE{
             height: 40rem;
-        }
-        .drop-IE{
-            height: 100rem;
         }
         .service-IE{
             width: 58rem;
