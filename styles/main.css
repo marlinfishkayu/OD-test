@@ -1718,6 +1718,12 @@ nav .open .nav-item {
   }
 }
 
+.section-value .container,
+.col-6 {
+  padding: 0;
+  margin: 0;
+}
+
 .section-value {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1726,8 +1732,8 @@ nav .open .nav-item {
 }
 
 .values {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   margin: 0 auto;
 }
 
