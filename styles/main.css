@@ -1295,7 +1295,7 @@ nav .open .nav-item {
   background-repeat: no-repeat;
   width: 28px;
   height: 25px;
-  margin: 0em;
+  margin-top: 5px;
   border: none;
   color: #233e97;
   background-color: transparent;
@@ -1460,18 +1460,6 @@ nav .open .nav-item {
   position: relative;
 }
 
-.fancybox-slide--html .fancybox-close-small {
-  z-index: 0;
-  width: 45px;
-  height: 45px;
-  right: 8vw;
-  top: 6vh;
-  position: fixed !important;
-  z-index: 0;
-  border-radius: 50%;
-  background-color: #233e97;
-}
-
 .fancybox-can-pan .fancybox-content,
 .fancybox-can-swipe .fancybox-content {
   cursor: inherit;
@@ -1527,6 +1515,57 @@ nav .open .nav-item {
   color: #fff;
 }
 
+.job-wrapper .modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.close-small {
+  z-index: 0;
+  width: 45px;
+  height: 45px;
+  right: 8vw;
+  top: 6vh;
+  position: fixed !important;
+  z-index: 3;
+  border-radius: 50%;
+  background-color: #233e97;
+  cursor: pointer !important;
+}
+
+.job-header {
+  color: #fff;
+}
+
+.job-padding {
+  padding-top: 10rem;
+}
+
+.job-wrapper {
+  padding-top: 3rem;
+  text-decoration: none;
+  border-bottom: 0.5px solid #212e60;
+}
+
+.job-wrapper .modal-title {
+  cursor: pointer;
+  margin: 0;
+  border: none;
+  font-size: 2.25rem;
+  font-family: Gotham-Medium;
+  text-align: left;
+  padding-bottom: 3rem;
+  cursor: pointer;
+}
+
+.job-wrapper .modal-title:hover {
+  color: #ef6624;
+}
+
+.job-wrapper .show {
+  padding-right: 0 !important;
+}
+
 /* Tablet */
 @media all and (max-width: 388px) {
   #Programmer .strike::after {
@@ -1557,13 +1596,21 @@ nav .open .nav-item {
     right: 9vw;
     top: 8vh;
   }
+  .close-small {
+    right: 12vw;
+    top: 9vh;
+  }
 }
 
 /* Tablet */
 @media all and (min-width: 900px) {
   .fancybox-slide--html .fancybox-close-small {
     right: 5%;
-    top: 8vh;
+    top: 9vh;
+  }
+  .close-small {
+    right: 18vw;
+    top: 9vh;
   }
 }
 
@@ -1606,6 +1653,9 @@ nav .open .nav-item {
     padding: 0;
     margin: 5rem;
   }
+  .job-modal .modal-dialog {
+    max-width: 798px;
+  }
 }
 
 /* Desktop */
@@ -1639,9 +1689,6 @@ nav .open .nav-item {
   .popup .Pop-container p,
   .popup .Pop-container ul li {
     line-height: 1.8;
-  }
-  .job-header {
-    padding: 12rem;
   }
   .strike {
     font-size: 6rem;
@@ -1682,6 +1729,13 @@ nav .open .nav-item {
   .fancybox-slide--html {
     padding-top: 44px;
   }
+  .job-modal .modal-dialog {
+    max-width: 900px;
+  }
+  .close-small {
+    right: 9vw;
+    top: 8vh;
+  }
 }
 
 /* Large Desktop */
@@ -1704,6 +1758,10 @@ nav .open .nav-item {
     max-width: 1140px;
   }
   .fancybox-slide--html .fancybox-close-small {
+    right: 6vw;
+    top: 8vh;
+  }
+  .close-small {
     right: 6vw;
     top: 8vh;
   }
@@ -1744,7 +1802,7 @@ nav .open .nav-item {
 }
 
 .core-value h2 {
-  font-size: 6rem;
+  font-size: 7rem;
   margin-bottom: 5rem;
 }
 
