@@ -2611,7 +2611,7 @@ label {
     background-size: 100%;
   }
   .notTooBig-IE {
-    height: 30rem;
+    height: 56rem;
   }
   #notTooBigIE {
     width: 100%;
@@ -2720,6 +2720,9 @@ label {
   }
   .deco-wrap2-IE {
     bottom: -50%;
+  }
+  .notTooBig-IE {
+    height: 74rem;
   }
 }
 
