@@ -516,3 +516,9 @@ button.close{
         width: 430px;
     }
 }
+/* Large Desktop */
+@media all and (min-width: 1920px) {
+    #Programmer .strike::after {
+        width: 95%;
+    }
+}
