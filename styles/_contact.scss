@@ -1,4 +1,3 @@
-
 #contact {
     position: relative;
     z-index: 0;
@@ -185,7 +184,7 @@ label {
     pointer-events: none;
     opacity: 1;
 }
-.form-wrap{
+.form-wrap {
     padding-top: 2.5rem;
 }
 #contactForm input:focus ~ label,
@@ -234,7 +233,7 @@ label {
     color: #ef6624;
     background-color: #fff;
     box-shadow: transparent;
-    opacity: 1!important;
+    opacity: 1 !important;
     margin: 0 auto;
 }
 #contact .custom-btn:hover {
@@ -309,15 +308,15 @@ label {
     border-radius: 40px;
 }
 
-.text-success{
-    color: #BFFFEE !important;
+.text-success {
+    color: #bfffee !important;
     width: 100%;
     height: 60px;
     font-family: "Muli", sans-serif, Arial, Helvetica !important;
     font-size: 16px;
     font-weight: 600;
     padding: 20px 0;
-    background-color: #04B989 !important;
+    background-color: #04b989 !important;
     border-radius: 40px;
 }
 
@@ -339,7 +338,8 @@ label {
     #nameInput {
         margin-right: 5rem;
     }
-    #contactForm .controls label, .myemail .email-label {
+    #contactForm .controls label,
+    .myemail .email-label {
         font-size: 18px;
     }
     #contactForm input,
@@ -369,7 +369,8 @@ label {
     #contact .company-info {
         padding: 10rem 0 0 0;
     }
-    #contactForm .controls label, .myemail .email-label {
+    #contactForm .controls label,
+    .myemail .email-label {
         font-size: 24px;
     }
     #contactForm input,
@@ -405,6 +406,4 @@ label {
     .contact-info {
         padding-top: 8rem;
     }
-    
-    
 }
