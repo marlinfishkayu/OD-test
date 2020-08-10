@@ -1,3 +1,4 @@
+
 .nav-contianer {
     position: relative;
     z-index: 2;
@@ -64,6 +65,8 @@ nav {
     margin: 5px;
 }
 // collapes hamburger
+/* Icon 3 */
+
 .hamburger {
     width: 22px;
     height: 45px;
@@ -82,6 +85,7 @@ nav {
     position: absolute;
     cursor: pointer;
 }
+
 .hamburger span {
     display: block;
     position: absolute;
@@ -287,3 +291,4 @@ nav .open .nav-item {
         height: 90px;
     }
 }
+

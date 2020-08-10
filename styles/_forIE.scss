@@ -1,3 +1,4 @@
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .intro-video,
     #notTooBig .clip,
@@ -5,41 +6,41 @@
     #dropMobileAnim,
     #wayToGoAnim,
     .deco-4,
-    .service-wrap .clip {
+    .service-wrap .clip{
         display: none;
     }
     .notTooBig-IE,
     .service-IE,
     .wayToGo-IE,
     .deco-wrap-IE,
-    .deco-wrap2-IE {
+    .deco-wrap2-IE{
         display: block;
     }
     .notTooBig-IE,
-    .wayToGo-IE {
+    .wayToGo-IE{
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    .notTooBig-IE {
+    .notTooBig-IE{
         height: 56rem;
     }
-    #notTooBigIE {
+    #notTooBigIE{
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
         background-size: 100%;
         background-image: url(../images/IE/IE_NotTooBig.png);
     }
-    .wayToGo-IE {
+    .wayToGo-IE{
         width: 100%;
         height: 100%;
         background-image: url(../images/IE/IE_WayToGoTeam.png);
     }
-    #sectionWHO {
+    #nav1{
         position: relative;
         z-index: 0;
     }
-    .deco-wrap-IE {
+    .deco-wrap-IE{
         position: absolute;
         z-index: 1;
         bottom: 5%;
@@ -47,11 +48,11 @@
         width: 46px;
         height: 172px;
     }
-    #sectionHOW {
+    #nav2{
         position: relative;
         z-index: 0;
     }
-    .deco-wrap2-IE {
+    .deco-wrap2-IE{
         position: absolute;
         z-index: 1;
         bottom: -25%;
@@ -59,7 +60,7 @@
         width: 46px;
         height: 172px;
     }
-    .arrow-IE {
+    .arrow-IE{
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -69,34 +70,34 @@
     #drop-mobile .sub-header {
         padding-top: 0;
     }
-    .service-IE {
+    .service-IE{
         height: 70rem;
     }
-    .tab-content {
+    .tab-content{
         padding-top: 0rem;
     }
-    #ProductDev {
+    #ProductDev{
         background-image: url(../images/IE/ProductDev-IE.png);
     }
-    #ItSol-IE {
+    #ItSol-IE{
         background-image: url(../images/IE/ItSol-IE.png);
     }
-    #ItInfra-IE {
+    #ItInfra-IE{
         background-image: url(../images/IE/ItInfrastructure-IE.png);
     }
-    #CreativeFro-IE {
+    #CreativeFro-IE{
         background-image: url(../images/IE/CreativeFro-IE.png);
     }
-    #MarketingStr-IE {
+    #MarketingStr-IE{
         background-image: url(../images/IE/MarketingStr-IE.png);
     }
-    #QualityAss-IE {
+    #QualityAss-IE{
         background-image: url(../images/IE/QualityAss-IE.png);
     }
-    .section-services .action a:hover span {
+    .section-services .action a:hover span{
         opacity: 1;
     }
-    #actionBtnIE {
+    #actionBtnIE{
         display: block;
     }
     .IE-img {
@@ -105,7 +106,7 @@
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    .nav-links {
+    .nav-links{
         right: -100%;
         opacity: 0;
         line-height: normal;
@@ -113,76 +114,80 @@
         transition-timing-function: ease-in-out;
         transition: all 0.5s;
     }
-    .nav-links.open {
+    .nav-links.open{
         right: 0%;
         opacity: 1;
     }
-    #msgSubmit {
+    #msgSubmit{
         background-color: #fff;
     }
     @media all and (min-width: 500px) {
-        .service-IE {
+        .service-IE{
             height: 80rem;
         }
-        .deco-wrap2-IE {
+        .deco-wrap2-IE{
             bottom: -50%;
         }
-        .notTooBig-IE {
+        .notTooBig-IE{
             height: 74rem;
         }
     }
     @media all and (min-width: 600px) {
-        .service-IE {
+        .service-IE{
             height: 90rem;
-            width: 60rem;
+            width:60rem;
             margin: auto;
         }
     }
     @media all and (min-width: 700px) {
-        .notTooBig-IE {
+        .notTooBig-IE{
             height: 80rem;
         }
-        .service-wrap {
+        .service-wrap{
             margin: auto;
         }
-        .service-IE {
+        .service-IE{
             min-height: 66rem;
             height: auto;
-            width: 66rem;
+            width:66rem;
         }
         .deco-wrap-IE,
-        .deco-wrap2-IE {
+        .deco-wrap2-IE{
             width: 60px;
             height: 210px;
         }
-        .deco-wrap2-IE {
+        .deco-wrap2-IE{
             bottom: -45%;
         }
     }
     @media all and (min-width: 1201px) {
-        .notTooBig-IE {
+        .notTooBig-IE{
             height: 40rem;
         }
-        .service-IE {
+        .service-IE{
             width: 58rem;
             margin-top: -5rem;
             height: 55rem;
         }
         .deco-wrap-IE,
-        .deco-wrap2-IE {
+        .deco-wrap2-IE{
             width: 80px;
             height: 300px;
         }
-        .deco-wrap2-IE {
+        .deco-wrap2-IE{
             right: 3%;
             bottom: -25%;
         }
+        
     }
     @media all and (min-width: 1920px) {
-        .service-IE {
+        .service-IE{
             width: 68rem;
             margin-right: -15rem;
             margin-top: -8rem;
         }
+        
     }
 }
+
+

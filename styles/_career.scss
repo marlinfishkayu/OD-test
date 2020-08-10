@@ -12,11 +12,11 @@
 }
 .section-career .card-content .job-list {
     font-size: 2.25rem;
-    font-family: Gotham-Medium;
+    font-family: Gotham-Medium ;
     text-align: left;
     padding-bottom: 5rem;
 }
-.wayToGo-IE {
+.wayToGo-IE{
     display: none;
 }
 /* Job Offer style */
@@ -25,9 +25,11 @@
     position: relative;
     z-index: 0;
 }
-#wayToGoAnim {
+
+#wayToGoAnim{
     padding-top: 10rem;
 }
+
 .job-opport {
     font-size: 5rem;
     font-family: Gotham-Medium;
@@ -59,6 +61,7 @@
     position: relative;
     z-index: 0;
 }
+
 .arrow45 {
     background-image: url(../images/arrow45.svg);
     background-repeat: no-repeat;
@@ -161,14 +164,14 @@
     box-shadow: none;
 }
 .apply-btn a:focus .btn,
-.apply-btn a:hover .btn {
+.apply-btn a:hover .btn{
     color: #fff;
     text-decoration: none;
 }
-.apply-wrap a:hover .btn {
+.apply-wrap a:hover .btn{
     background-color: #233e97;
 }
-.apply-wrap a {
+.apply-wrap a{
     outline-color: transparent;
     outline: none;
 }
@@ -189,6 +192,38 @@
     line-height: 30px;
     text-align: center;
 }
+
+/* fancy box */
+.fancybox-button svg {
+    display: none;
+}
+.fancybox-button {
+    background-image: url(../images/close-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 50% 50%;
+    width: 28px;
+    height: 25px;
+    margin: 0em;
+    border: none;
+    background-color: transparent;
+}
+.Pop-container {
+    position: relative;
+}
+
+.fancybox-can-pan .fancybox-content,
+.fancybox-can-swipe .fancybox-content {
+    cursor: inherit;
+    
+}
+
+
+/* pop up test */
+.popup {
+    align-items: center;
+}
+
 .section-career .send-cv p {
     font-size: 1.85rem;
 }
@@ -226,11 +261,11 @@
     color: #fff;
 }
 // bootstrap
-.job-wrapper .modal-content {
+.job-wrapper .modal-content{
     background-color: transparent;
     border: none;
 }
-.close-small {
+.close-small{
     z-index: 0;
     width: 45px;
     height: 45px;
@@ -242,18 +277,18 @@
     background-color: #233e97;
     cursor: pointer !important;
 }
-.job-header {
-    color: #fff;
+.job-header{
+    color:#fff;
 }
-.job-padding {
+.job-padding{
     padding-top: 10rem;
 }
-.job-wrapper {
+.job-wrapper{
     padding-top: 3rem;
     text-decoration: none;
     border-bottom: 0.5px solid #212e60;
 }
-.job-wrapper .modal-title {
+.job-wrapper .modal-title{
     cursor: pointer;
     margin: 0;
     border: none;
@@ -266,7 +301,10 @@
 .job-wrapper .modal-title:hover {
     color: #ef6624;
 }
-button.close {
+.job-wrapper .show{
+    padding-right: 0!important;
+}
+button.close{
     background-color: #233e97;
 }
 
@@ -298,7 +336,7 @@ button.close {
         right: 9vw;
         top: 8vh;
     }
-    .close-small {
+    .close-small{
         right: 12vw;
         top: 9vh;
     }
@@ -309,7 +347,7 @@ button.close {
         right: 5%;
         top: 9vh;
     }
-    .close-small {
+    .close-small{
         right: 18vw;
         top: 9vh;
     }
@@ -353,7 +391,7 @@ button.close {
         padding: 0;
         margin: 5rem;
     }
-    .job-modal .modal-dialog {
+    .job-modal .modal-dialog{
         max-width: 798px;
     }
 }
@@ -365,7 +403,7 @@ button.close {
         height: 100%;
         max-width: 700px;
     }
-    .career-wrap {
+    .career-wrap{
         margin: 0 auto;
     }
     .section-career .send-cv h2 {
@@ -426,10 +464,11 @@ button.close {
         right: 9vw;
         top: 8vh;
     }
+    
     .fancybox-slide--html {
         padding-top: 44px;
     }
-    .job-modal .modal-dialog {
+    .job-modal .modal-dialog{
         max-width: 900px;
     }
     .close-small {

@@ -1,12 +1,15 @@
 .section-value .container,
 .col-6{
     padding: 0;
+    margin: 0;
 }
 .section-value {
     display: flex;
     height: 90rem;
 }
-
+.center{
+    margin:0  auto;
+}
 .values{
     width: 25rem;
     height: 25rem;

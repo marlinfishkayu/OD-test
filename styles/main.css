@@ -1797,6 +1797,10 @@ button.close {
   height: 90rem;
 }
 
+.center {
+  margin: 0  auto;
+}
+
 .values {
   width: 25rem;
   height: 25rem;

@@ -5,20 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie-edge" />
         <!-- Outdated Browser css-->
-        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css">
         <!-- external font-->
         <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
         <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
-        <script type="text/javascript" src="assets/js/jquery-min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-min.js"></script> 
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <!-- anime.js CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
         <!-- lottie.js CDN-->
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-        <!-- Compiled and minified CSS -->
+        <!-- fancybox -->
+        <link rel="stylesheet" type="text/css" href="./styles/jquery.fancybox.min.css">  
+         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="./styles/main.css" />
-        <title>Orange Data</title>
-        <link rel="shortcut icon" type="image/svg" href="images/favicon.svg" />
+        <title>OD Website</title>
+        <link rel="shortcut icon" type="image/svg" href="images/favicon.svg">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src=“https://www.googletagmanager.com/gtag/js?id=UA-175043715-1”></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag(‘js’, new Date());
+        gtag(‘config’, ‘UA-175043715-1’);
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -39,15 +52,15 @@
                                 <span></span>
                             </div>
                             <ul class="nav-links">
-                                <li><a class="nav-item" href="#sectionWHO">WHO</a></li>
-                                <li><a class="nav-item" href="#sectionHOW">HOW</a></li>
-                                <li><a class="nav-item" href="#sectionSERVICES">SERVICES</a></li>
-                                <li><a class="nav-item" href="#sectionCAREER">CAREER</a></li>
-                                <li><a class="nav-item" href="#sectionCONTACT">CONTACT</a></li>
+                                <li><a class="nav-item" href="#who">WHO</a></li>
+                                <li><a class="nav-item" href="#how">HOW</a></li>
+                                <li><a class="nav-item" href="#services">SERVICES</a></li>
+                                <li><a class="nav-item" href="#career">CAREER</a></li>
+                                <li><a class="nav-item" href="#contact">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
-
+                    
                     <!-- intro section -->
                     <section class="section-intro blue">
                         <div class="intro-wrapper showcase">
@@ -60,15 +73,16 @@
                         </div>
                     </section>
                     <div class="mars-container">
-                        <div class="heading-m">
+                        <div class=" heading-m">
                             <p>FROM ORANGE DATA TO EVERYTHING</p>
                             <h1>WE STAY AHEAD</h1>
                         </div>
-                        <div class="intro-space"></div>
+                        <div class="intro-space">
+                        </div>
                     </div>
                     <!-- WHO!? -->
-                    <section class="section-card orange animated" style="margin-top: -5px;" id="sectionWHO">
-                        <div class="card-content">
+                    <section class="section-card orange animated" style="margin-top: -5px;" id="nav1">
+                        <div class="card-content" id="who">
                             <h2>WHO?!</h2>
                             <div id="AnimOne"></div>
                             <div class="spaceship-2"></div>
@@ -150,29 +164,29 @@
                     <section class="section-card section-value blue">
                         <div class="card-content text-center core-value">
                             <h2 class="sub-header">FOUR CORE VALUES</h2>
-                            <div class="container pt-3" style="margin: auto;">
+                            <div class="container pt-3" style="margin: 0 auto;">
                                 <div class="row">
                                     <div class="col-6 col-md-3">
                                         <div class="values">
-                                            <img src="images/Core Values_1.png" />
+                                            <img src="images/Core Values_1.png"/>
                                         </div>
                                         <h6>INNOVATION</h6>
                                     </div>
                                     <div class="col-6 col-md-3">
                                         <div class="values">
-                                            <img src="images/Core Values_2.png" />
+                                            <img src="images/Core Values_2.png"/>
                                         </div>
                                         <h6>PEOPLE</h6>
                                     </div>
                                     <div class="col-6 col-md-3">
                                         <div class="values">
-                                            <img src="images/Core Values_3.png" />
+                                            <img src="images/Core Values_3.png"/>
                                         </div>
                                         <h6>PEOPLE</h6>
                                     </div>
                                     <div class="col-6 col-md-3">
                                         <div class="values">
-                                            <img src="images/Core Values_4.png" />
+                                            <img src="images/Core Values_4.png"/>
                                         </div>
                                         <h6>DIVERSIFCATION</h6>
                                     </div>
@@ -180,10 +194,10 @@
                             </div>
                         </div>
                     </section>
-
+                    
                     <!-- HOW!?-->
                     <section class="section-card how orange animated" id="how">
-                        <div class="card-content" id="sectionHOW">
+                        <div class="card-content" id="nav2">
                             <div class="deco-wrap-2">
                                 <div class="deco-4"><div id="arrowAnim2"></div></div>
                                 <!-- display for IE -->
@@ -311,8 +325,7 @@
                                     </g>
                                 </svg>
                                 else flows from here.That’s why we were a <br class="breakline-card" />
-                                team of <span class="emoji">🧑🏻&zwj;🚀</span>🧑🏻‍🔧👨🏻‍🔬👩🏻‍💻👨🏻‍🎨 makers, thinkers,
-                                <span href="" class="hover-me" id="hoverB">explorers<img class="tapB" src="images/tapeB.png" /><img class="tapBY" src="images/tapeBY.png" /></span> and inventors
+                                team of <span class="emoji">🧑🏻&zwj;🚀</span>🧑🏻‍🔧👨🏻‍🔬👩🏻‍💻👨🏻‍🎨 makers, thinkers, <span href="" class="hover-me" id="hoverB">explorers<img class="tapB" src="images/tapeB.png" /><img class="tapBY" src="images/tapeBY.png" /></span> and inventors
                                 <br class="breakline-card" />
                                 working at the intersection of <span href="" class="hover-me" id="hoverY">creative<img class="tapY2" src="images/tapeY.png" /><img class="tapY2P" src="images/tapeP.png" /></span> and
                                 <span href="" class="hover-me" id="hoverY">digital<img class="tapY2 tapY3" src="images/tapeY.png" /><img class="tapY2P tapY3P" src="images/tapeP.png" /></span>.
@@ -329,11 +342,12 @@
                                 <div class="notTooBig-IE">
                                     <div class="IE-img" id="notTooBigIE"></div>
                                 </div>
+                                
                             </div>
                         </div>
                     </section>
                     <!-- Services -->
-                    <section class="section-services blue" id="sectionSERVICES">
+                    <section class="section-services blue" id="services">
                         <div class="card-content">
                             <h2 class="text-center" id="service">SERVICES</h2>
                             <!-- Service Dynamic Tab  -->
@@ -386,7 +400,8 @@
                                                     <div class="clip"><div id="ProductDevelopmentAnim"></div></div>
                                                     <!-- display for IE  -->
                                                     <div class="service-IE">
-                                                        <div class="IE-img" id="ProductDev"></div>
+                                                        <div class="IE-img" id="ProductDev">
+                                                        </div>
                                                     </div>
                                                     <!-- description  -->
                                                     <div class="description">
@@ -420,7 +435,8 @@
                                                     <div class="clip"><div id="ItSolutionAnim"></div></div>
                                                     <!-- display for IE  -->
                                                     <div class="service-IE">
-                                                        <div class="IE-img" id="ItSol-IE"></div>
+                                                        <div class="IE-img" id="ItSol-IE">
+                                                        </div>
                                                     </div>
                                                     <!-- description  -->
                                                     <div class="description">
@@ -450,7 +466,8 @@
                                                     <div class="clip"><div id="InfrastructureAnim"></div></div>
                                                     <!-- display for IE  -->
                                                     <div class="service-IE">
-                                                        <div class="IE-img" id="ItInfra-IE"></div>
+                                                        <div class="IE-img" id="ItInfra-IE">
+                                                        </div>
                                                     </div>
                                                     <!-- description  -->
                                                     <div class="description">
@@ -474,7 +491,8 @@
                                                     <div class="clip"><div id="FrontEndAnim"></div></div>
                                                     <!-- display for IE  -->
                                                     <div class="service-IE">
-                                                        <div class="IE-img" id="CreativeFro-IE"></div>
+                                                        <div class="IE-img" id="CreativeFro-IE">
+                                                        </div>
                                                     </div>
                                                     <!-- description  -->
                                                     <div class="description">
@@ -501,7 +519,8 @@
                                                     <div class="clip"><div id="StrategyAnim"></div></div>
                                                     <!-- display for IE  -->
                                                     <div class="service-IE">
-                                                        <div class="IE-img" id="MarketingStr-IE"></div>
+                                                        <div class="IE-img" id="MarketingStr-IE">
+                                                        </div>
                                                     </div>
                                                     <!-- description  -->
                                                     <div class="description">
@@ -529,7 +548,8 @@
                                                     <div class="clip"><div id="QualityAssuranceAnim"></div></div>
                                                     <!-- display for IE  -->
                                                     <div class="service-IE">
-                                                        <div class="IE-img" id="QualityAss-IE"></div>
+                                                        <div class="IE-img" id="QualityAss-IE">
+                                                        </div>
                                                     </div>
                                                     <!-- description  -->
                                                     <div class="description">
@@ -563,23 +583,31 @@
                                 getting started with Orange Data.
                             </p>
                             <button type="button" class="btn btn-link action">
-                                <a href="#sectionCONTACT"><span>Get </span><span>in </span><span>touch </span><span>now</span></a>
+                                <a href="#contact"><span>Get </span><span>in </span><span>touch </span><span>now</span></a>
                             </button>
-                            <a href="#sectionCONTACT">
-                                <button type="button" class="btn btn-link action" id="actionBtnIE"><span>Get </span><span>in </span><span>touch </span><span>now</span></button>
+                            <a href="#contact">
+                            <button type="button" class="btn btn-link action" id="actionBtnIE">
+                                <span>Get </span><span>in </span><span>touch </span><span>now</span>
+                            </button>
                             </a>
                         </div>
                     </section>
                     <!-- Career -->
-                    <section class="section-career white" id="sectionCAREER">
-                        <div class="card-content">
+                    <section class="section-career white" id="nav4">
+                        <div class="card-content" id="career">
                             <!-- Way to go team!-->
                             <div class="career-wrap">
                                 <div class="career-logo">
                                     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
-                                    <lottie-player id="wayToGoAnim" src="https://assets1.lottiefiles.com/packages/lf20_kjzY5J/Way to go_animation/data.json" background="transparent" speed="1" loop></lottie-player>
+                                    <lottie-player
+                                        id="wayToGoAnim"
+                                        src="https://assets1.lottiefiles.com/packages/lf20_kjzY5J/Way to go_animation/data.json"
+                                        background="transparent"
+                                        speed="1"
+                                        loop
+                                    ></lottie-player>
                                     <!-- display for IE -->
-                                    <div class="wayToGo-IE"></div>
+                                        <div class="wayToGo-IE"></div>
                                 </div>
                             </div>
                             <!-- Job Opportunity -->
@@ -588,241 +616,254 @@
 
                                 <div class="job-wrapper d-flex job-padding">
                                     <h3 class="modal-title w-100" data-toggle="modal" data-target="#ProgrammerModal">Programmer</h3>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#ProgrammerModal">
+                                       <!-- Button trigger modal -->
+                                       <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#ProgrammerModal">
                                         <div class="clear-fix"></div>
-                                    </button>
+                                    </button>                            
                                     <!-- Modal -->
-                                    <div class="modal job-modal" id="ProgrammerModal" tabindex="-1" role="dialog" aria-labelledby="ProgrammerModal" aria-hidden="true">
+                                    <div class="modal job-modal"  id="ProgrammerModal" tabindex="-1" role="dialog" aria-labelledby="ProgrammerModal" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
-                                            <div class="modal-content text-left">
-                                                <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close"></button>
-                                                <div class="modal-body Pop-container">
-                                                    <div id="Programmer">
-                                                        <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
-                                                            <h1 class="strike" data-selectable="true">Analyst Programmer</h1>
-                                                            <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
-                                                            <p data-selectable="true">
-                                                                A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success.
-                                                                Things in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
-                                                            </p>
-                                                        </div>
-                                                        <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem;">
-                                                            <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
-                                                                <li>Drive the overall Design team’s operations and strategy.</li>
-                                                                <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
-                                                                <li>Assist in scoping out the timeline and requirements of design engagements.</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Communicate design direction, decisions</li>
-                                                                <li>Fluency in design and prototyping tools</li>
-                                                                <li>Experience working in collaborative environment</li>
-                                                                <li>Preferably background in agency/consultancy</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">Requirements</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>University fresh graduate</li>
-                                                                <li>Strong client skills with ability to deliver solutions</li>
-                                                                <li>Proven organization skills and attention to details</li>
-                                                                <li>Strong self-motivation with good analytical skills</li>
-                                                            </ul>
+                                        <div class="modal-content text-left">
+                                            <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                            <div class="modal-body Pop-container">
+                                                <div id="Programmer">
+                                                    <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
+                                                        <h1 class="strike" data-selectable="true">Analyst Programmer</h1>
+                                                        <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
+                                                        <p data-selectable="true">
+                                                            A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success. Things
+                                                            in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
+                                                        </p>
+                                                    </div>
+                                                    <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem ;">
+                                                        <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
+                                                            <li>Drive the overall Design team’s operations and strategy.</li>
+                                                            <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
+                                                            <li>Assist in scoping out the timeline and requirements of design engagements.</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Communicate design direction, decisions</li>
+                                                            <li>Fluency in design and prototyping tools</li>
+                                                            <li>Experience working in collaborative environment</li>
+                                                            <li>Preferably background in agency/consultancy</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">Requirements</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>University fresh graduate</li>
+                                                            <li>Strong client skills with ability to deliver solutions</li>
+                                                            <li>Proven organization skills and attention to details</li>
+                                                            <li>Strong self-motivation with good analytical skills</li>
+                                                        </ul>
 
-                                                            <div class="d-flex justify-content-center apply-wrap">
-                                                                <a href="mailto: hr@orangedata.info" class="apply-btn">
-                                                                    <button type="button" class="btn">
-                                                                        Apply
-                                                                    </button>
-                                                                </a>
-                                                            </div>
+                                                        
+                                                        <div class="d-flex justify-content-center apply-wrap">
+                                                            <a href="mailto: hr@orangedata.info" class="apply-btn">
+                                                                <button type="button" class="btn">
+                                                                    Apply
+                                                                </button>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="job-wrapper d-flex">
                                     <h3 class="modal-title w-100" data-toggle="modal" data-target="#UIDesignerModal">UI Designer</h3>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#UIDesignerModal">
+                                       <!-- Button trigger modal -->
+                                       <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#UIDesignerModal">
                                         <div class="clear-fix"></div>
-                                    </button>
+                                    </button>                            
                                     <!-- Modal -->
-                                    <div class="modal job-modal" id="UIDesignerModal" tabindex="-1" role="dialog" aria-labelledby="UIDesignerModal" aria-hidden="true">
+                                    <div class="modal job-modal"  id="UIDesignerModal" tabindex="-1" role="dialog" aria-labelledby="UIDesignerModal" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
-                                            <div class="modal-content text-left">
-                                                <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close"></button>
-                                                <div class="modal-body Pop-container">
-                                                    <div id="UIDesigner">
-                                                        <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
-                                                            <h1 class="strike" data-selectable="true">UI Designer</h1>
-                                                            <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
-                                                            <p data-selectable="true">
-                                                                A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success.
-                                                                Things in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
-                                                            </p>
-                                                        </div>
-                                                        <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem;">
-                                                            <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
-                                                                <li>Drive the overall Design team’s operations and strategy.</li>
-                                                                <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
-                                                                <li>Assist in scoping out the timeline and requirements of design engagements.</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Communicate design direction, decisions</li>
-                                                                <li>Fluency in design and prototyping tools</li>
-                                                                <li>Experience working in collaborative environment</li>
-                                                                <li>Preferably background in agency/consultancy</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">Requirements</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>University fresh graduate</li>
-                                                                <li>Strong client skills with ability to deliver solutions</li>
-                                                                <li>Proven organization skills and attention to details</li>
-                                                                <li>Strong self-motivation with good analytical skills</li>
-                                                            </ul>
+                                        <div class="modal-content text-left">
+                                            <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                            <div class="modal-body Pop-container">
+                                                <div id="UIDesigner">
+                                                    <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
+                                                        <h1 class="strike" data-selectable="true">UI Designer</h1>
+                                                        <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
+                                                        <p data-selectable="true">
+                                                            A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success. Things
+                                                            in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
+                                                        </p>
+                                                    </div>
+                                                    <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem ;">
+                                                        <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
+                                                            <li>Drive the overall Design team’s operations and strategy.</li>
+                                                            <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
+                                                            <li>Assist in scoping out the timeline and requirements of design engagements.</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Communicate design direction, decisions</li>
+                                                            <li>Fluency in design and prototyping tools</li>
+                                                            <li>Experience working in collaborative environment</li>
+                                                            <li>Preferably background in agency/consultancy</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">Requirements</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>University fresh graduate</li>
+                                                            <li>Strong client skills with ability to deliver solutions</li>
+                                                            <li>Proven organization skills and attention to details</li>
+                                                            <li>Strong self-motivation with good analytical skills</li>
+                                                        </ul>
 
-                                                            <div class="d-flex justify-content-center apply-wrap">
-                                                                <a href="mailto: hr@orangedata.info" class="apply-btn">
-                                                                    <button type="button" class="btn">
-                                                                        Apply
-                                                                    </button>
-                                                                </a>
-                                                            </div>
+                                                        
+                                                        <div class="d-flex justify-content-center apply-wrap">
+                                                            <a href="mailto: hr@orangedata.info" class="apply-btn">
+                                                                <button type="button" class="btn">
+                                                                    Apply
+                                                                </button>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="job-wrapper d-flex">
                                     <h3 class="modal-title w-100" data-toggle="modal" data-target="#WebDesignerModal">Web Designer</h3>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#WebDesignerModal">
+                                       <!-- Button trigger modal -->
+                                       <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#WebDesignerModal">
                                         <div class="clear-fix"></div>
-                                    </button>
+                                    </button>                            
                                     <!-- Modal -->
-                                    <div class="modal job-modal" id="WebDesignerModal" tabindex="-1" role="dialog" aria-labelledby="WebDesignerModal" aria-hidden="true">
+                                    <div class="modal job-modal"  id="WebDesignerModal" tabindex="-1" role="dialog" aria-labelledby="WebDesignerModal" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
-                                            <div class="modal-content text-left">
-                                                <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close"></button>
-                                                <div class="modal-body Pop-container">
-                                                    <div id="WebDesigner">
-                                                        <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
-                                                            <h1 class="strike" data-selectable="true">Web Designer</h1>
-                                                            <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
-                                                            <p data-selectable="true">
-                                                                A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success.
-                                                                Things in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
-                                                            </p>
-                                                        </div>
-                                                        <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem;">
-                                                            <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
-                                                                <li>Drive the overall Design team’s operations and strategy.</li>
-                                                                <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
-                                                                <li>Assist in scoping out the timeline and requirements of design engagements.</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Communicate design direction, decisions</li>
-                                                                <li>Fluency in design and prototyping tools</li>
-                                                                <li>Experience working in collaborative environment</li>
-                                                                <li>Preferably background in agency/consultancy</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">Requirements</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>University fresh graduate</li>
-                                                                <li>Strong client skills with ability to deliver solutions</li>
-                                                                <li>Proven organization skills and attention to details</li>
-                                                                <li>Strong self-motivation with good analytical skills</li>
-                                                            </ul>
+                                        <div class="modal-content text-left">
+                                            <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                            <div class="modal-body Pop-container">
+                                                <div id="WebDesigner">
+                                                    <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
+                                                        <h1 class="strike" data-selectable="true">Web Designer</h1>
+                                                        <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
+                                                        <p data-selectable="true">
+                                                            A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success. Things
+                                                            in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
+                                                        </p>
+                                                    </div>
+                                                    <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem ;">
+                                                        <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
+                                                            <li>Drive the overall Design team’s operations and strategy.</li>
+                                                            <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
+                                                            <li>Assist in scoping out the timeline and requirements of design engagements.</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Communicate design direction, decisions</li>
+                                                            <li>Fluency in design and prototyping tools</li>
+                                                            <li>Experience working in collaborative environment</li>
+                                                            <li>Preferably background in agency/consultancy</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">Requirements</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>University fresh graduate</li>
+                                                            <li>Strong client skills with ability to deliver solutions</li>
+                                                            <li>Proven organization skills and attention to details</li>
+                                                            <li>Strong self-motivation with good analytical skills</li>
+                                                        </ul>
 
-                                                            <div class="d-flex justify-content-center apply-wrap">
-                                                                <a href="mailto: hr@orangedata.info" class="apply-btn">
-                                                                    <button type="button" class="btn">
-                                                                        Apply
-                                                                    </button>
-                                                                </a>
-                                                            </div>
+                                                        
+                                                        <div class="d-flex justify-content-center apply-wrap">
+                                                            <a href="mailto: hr@orangedata.info" class="apply-btn">
+                                                                <button type="button" class="btn">
+                                                                    Apply
+                                                                </button>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="job-wrapper d-flex">
                                     <h3 class="modal-title w-100" data-toggle="modal" data-target="#MarketingModal">Marketing</h3>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#MarketingModal">
+                                       <!-- Button trigger modal -->
+                                       <button type="button" class="arrow45 flex-shrink-1" data-toggle="modal" data-target="#MarketingModal">
                                         <div class="clear-fix"></div>
-                                    </button>
+                                    </button>                            
                                     <!-- Modal -->
-                                    <div class="modal job-modal" id="MarketingModal" tabindex="-1" role="dialog" aria-labelledby="MarketingModal" aria-hidden="true">
+                                    <div class="modal job-modal"  id="MarketingModal" tabindex="-1" role="dialog" aria-labelledby="MarketingModal" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
-                                            <div class="modal-content text-left">
-                                                <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close"></button>
-                                                <div class="modal-body Pop-container">
-                                                    <div id="Marketing">
-                                                        <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
-                                                            <h1 class="strike" data-selectable="true">Marketing</h1>
-                                                            <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
-                                                            <p data-selectable="true">
-                                                                A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success.
-                                                                Things in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
-                                                            </p>
-                                                        </div>
-                                                        <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem;">
-                                                            <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
-                                                                <li>Drive the overall Design team’s operations and strategy.</li>
-                                                                <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
-                                                                <li>Assist in scoping out the timeline and requirements of design engagements.</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>Communicate design direction, decisions</li>
-                                                                <li>Fluency in design and prototyping tools</li>
-                                                                <li>Experience working in collaborative environment</li>
-                                                                <li>Preferably background in agency/consultancy</li>
-                                                            </ul>
-                                                            <h3 class="strike-sub" data-selectable="true">Requirements</h3>
-                                                            <ul data-selectable="true">
-                                                                <li>University fresh graduate</li>
-                                                                <li>Strong client skills with ability to deliver solutions</li>
-                                                                <li>Proven organization skills and attention to details</li>
-                                                                <li>Strong self-motivation with good analytical skills</li>
-                                                            </ul>
+                                        <div class="modal-content text-left">
+                                            <button type="button" class="close fancybox-button close-small" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                            <div class="modal-body Pop-container">
+                                                <div id="Marketing">
+                                                    <div class="job-header blue" style="border-radius: 3rem 3rem 0 0;">
+                                                        <h1 class="strike" data-selectable="true">Marketing</h1>
+                                                        <h3 class="strike-sub" data-selectable="true">Job Highlights</h3>
+                                                        <p data-selectable="true">
+                                                            A Director at Orange Data owns the big picture of our design work, and is responsible for overall quality while ensuring the team executing the work is set up for success. Things
+                                                            in our world are constantly changing so you must be fast, highly adaptive, and comfortable with ambiguity……
+                                                        </p>
+                                                    </div>
+                                                    <div class="Pop-detail" style="border-radius: 0 0 3rem 3rem ;">
+                                                        <h3 class="strike-sub" data-selectable="true">Responsibilities</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Co-Manage a +50-person design team and mentor our Design Leads.</li>
+                                                            <li>Drive the overall Design team’s operations and strategy.</li>
+                                                            <li>Collaborate with the Client Partnerships team to pitch engagements to clients.</li>
+                                                            <li>Assist in scoping out the timeline and requirements of design engagements.</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">What we’re looking for</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>Communicate design direction, decisions</li>
+                                                            <li>Fluency in design and prototyping tools</li>
+                                                            <li>Experience working in collaborative environment</li>
+                                                            <li>Preferably background in agency/consultancy</li>
+                                                        </ul>
+                                                        <h3 class="strike-sub" data-selectable="true">Requirements</h3>
+                                                        <ul data-selectable="true">
+                                                            <li>University fresh graduate</li>
+                                                            <li>Strong client skills with ability to deliver solutions</li>
+                                                            <li>Proven organization skills and attention to details</li>
+                                                            <li>Strong self-motivation with good analytical skills</li>
+                                                        </ul>
 
-                                                            <div class="d-flex justify-content-center apply-wrap">
-                                                                <a href="mailto: hr@orangedata.info" class="apply-btn">
-                                                                    <button type="button" class="btn">
-                                                                        Apply
-                                                                    </button>
-                                                                </a>
-                                                            </div>
+                                                        
+                                                        <div class="d-flex justify-content-center apply-wrap">
+                                                            <a href="mailto: hr@orangedata.info" class="apply-btn">
+                                                                <button type="button" class="btn">
+                                                                    Apply
+                                                                </button>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        </div>
                                     </div>
                                 </div>
+                                
+
+
                             </div>
+                            
+                            
                         </div>
                     </section>
                     <!-- fancy box test -->
-
+                   
                     <!-- Let's explore the new lands -->
                     <section class="section-career white">
                         <div class="card-content">
@@ -849,41 +890,41 @@
                     </section>
                     <!-- Career -->
                     <section class="section-contact orange" id="contact">
-                        <div class="card-content" id="sectionCONTACT">
+                        <div class="card-content" id="nav5">
                             <h2 class="sub-header text-center">Get in Touch with us!</h2>
-
+                            
                             <!-- Start Contact Form -->
                             <form role="form" id="contactForm" class="contact-form container" data-toggle="validator" class="shake">
                                 <div class="row">
                                     <div class="form-group form-wrap col-12 col-md-6">
-                                        <div class="controls">
-                                            <input type="text" id="name" class="form-control myform" autocomplete="off" required data-error="Please enter your name" />
-                                            <label>Name</label>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
+                                    <div class="controls">
+                                        <input type="text" id="name" class="form-control myform" autocomplete="off" required data-error="Please enter your name">
+                                        <label>Name</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                     </div>
                                     <div class="form-group form-wrap col-12 col-md-6">
-                                        <div class="controls myemail">
-                                            <input type="email" class="form-control myform" id="email" autocomplete="off" required data-error="Please enter your email" />
-                                            <label class="email-label">Email</label>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
+                                    <div class="controls myemail">
+                                        <input type="email" class="form-control myform" id="email" autocomplete="off" required data-error="Please enter your email">
+                                        <label class="email-label">Email</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                     </div>
                                 </div>
-
+        
                                 <div class="form-group form-wrap" id="mess">
-                                    <div class="controls">
-                                        <textarea id="message" rows="3" class="form-control myform" required data-error="Write your message"></textarea>
-                                        <label>Message</label>
-                                        <div class="help-block with-errors message-warn"></div>
-                                    </div>
+                                  <div class="controls">
+                                    <textarea id="message" rows="3" class="form-control myform" required data-error="Write your message"></textarea>
+                                    <label>Message</label>
+                                    <div class="help-block with-errors message-warn"></div>
+                                  </div>  
                                 </div>
                                 <div class="text-center mt-5 mb-5">
                                     <button type="submit" class="custom-btn btn btn-success btn-light text-center" id="submit contactBtn">Send Message</button>
-                                </div>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
-                            </form>
+                                </div> 
+                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                <div class="clearfix"></div>   
+                              </form> 
                             <!-- /.form input box -->
                             <div class="company-info">
                                 <div class="logo-hor">
@@ -894,8 +935,7 @@
                                         <span class="small">Our Address:</span>
                                         <p>
                                             Rm705B, 7/F, Tower B, <br />
-                                            Manulife Financial Centre, <br />
-                                            223-231 Wai Yip Street,<br />
+                                            Manulife Financial Centre, <br />223-231 Wai Yip Street,<br />
                                             Kwun Tong, Kowloon, Hong Kong
                                         </p>
                                     </div>
@@ -921,55 +961,66 @@
 
         <!-- Outdated Browser JavaScript -->
         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js" integrity="sha512-FOw+bgWRx/Kk1SAVkNO8CiXx9FFP7kFq+hcYWruJRdqjhzB39Yt/CVFgcFIXfTH0+oSZNUMEQNq1XI9+nMAW0Q==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js" integrity="sha512-vu5YjaFVfKZxQ1SZ5LGRlOfK6XmZIT1whWgpBYKu5kMXzkY/TdABJGLUJHHNsEpYaahxRnuhkjItCQFBEJagHg==" crossorigin="anonymous"></script>
         <!-- bootstrap-validator -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"
-            integrity="sha512-dTu0vJs5ndrd3kPwnYixvOCsvef5SGYW/zSSK4bcjRBcZHzqThq7pt7PmCv55yb8iBvni0TSeIDV8RYKjZL36A=="
-            crossorigin="anonymous"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha512-dTu0vJs5ndrd3kPwnYixvOCsvef5SGYW/zSSK4bcjRBcZHzqThq7pt7PmCv55yb8iBvni0TSeIDV8RYKjZL36A==" crossorigin="anonymous"></script>
+        <script src="js/jquery.fancybox.min.js" type="text/javascript"></script>
         <!-- lottie animation -->
+        <script src="js/ScrollLottie.js" type="text/javascript"></script>
         <script src="js/lottie.js" type="text/javascript"></script>
         <script src="./js/app.js" type="text/javascript"></script>
+
         <!-- Main JS  -->
-        <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
+        <script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
         <script type="text/javascript" src="assets/js/contact-form-script.js"></script>
+
         <!-- plugin call -->
         <script>
+
             // Plain Javascript
             //event listener: DOM ready
             function addLoadEvent(func) {
                 var oldonload = window.onload;
-                if (typeof window.onload != "function") {
+                if (typeof window.onload != 'function') {
                     window.onload = func;
                 } else {
-                    window.onload = function () {
+                    window.onload = function() {
                         if (oldonload) {
                             oldonload();
                         }
                         func();
-                    };
+                    }
                 }
             }
             //call plugin function after DOM ready
-            addLoadEvent(function () {
+            addLoadEvent(function(){
                 outdatedBrowser({
-                    bgColor: "#f25648",
-                    color: "#ffffff",
-                    lowerThan: "transform",
-                    languagePath: "your_path/outdatedbrowser/lang/en.html",
-                });
+                    bgColor: '#f25648',
+                    color: '#ffffff',
+                    lowerThan: 'transform',
+                    languagePath: 'your_path/outdatedbrowser/lang/en.html'
+                })
             });
             // Using jQuery (version that supports IE < 9)
-            $(document).ready(function () {
+            $( document ).ready(function() {
                 outdatedBrowser({
-                    bgColor: "#f25648",
-                    color: "#ffffff",
-                    lowerThan: "transform",
-                    languagePath: "your_path/outdatedbrowser/lang/en.html",
-                });
-            });
+                    bgColor: '#f25648',
+                    color: '#ffffff',
+                    lowerThan: 'transform',
+                    languagePath: 'your_path/outdatedbrowser/lang/en.html'
+                })
+            })
+            
         </script>
+        
     </body>
 </html>
