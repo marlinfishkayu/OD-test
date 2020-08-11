@@ -16,8 +16,7 @@
     .deco-wrap2-IE{
         display: block;
     }
-    .notTooBig-IE,
-    .wayToGo-IE{
+    .notTooBig-IE{
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -25,22 +24,14 @@
         height: 56rem;
     }
     #notTooBigIE{
-        width: 100%;
+        width: 100%;    
         height: 100%;
         background-repeat: no-repeat;
         background-size: 100%;
         background-image: url(../images/IE/IE_NotTooBig.png);
     }
-    .wayToGo-IE{
-        width: 100%;
-        height: 100%;
-        background-image: url(../images/IE/IE_WayToGoTeam.png);
-    }
-    .way-wrapper{
-        width: 50rem;
-        height: 40rem;
-        margin: 0 auto;
-    }
+
+    
     #nav1{
         position: relative;
         z-index: 0;

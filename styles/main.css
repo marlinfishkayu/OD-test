@@ -1233,8 +1233,24 @@ nav .open .nav-item {
   padding-bottom: 5rem;
 }
 
+.way-wrapper {
+  width: 50rem;
+  height: 40rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
 .wayToGo-IE {
-  display: none;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/IE/IE_WayToGoTeam.png);
+}
+
+#wayToGoAnim {
+  padding-top: 10rem;
 }
 
 /* Job Offer style */
@@ -1242,10 +1258,6 @@ nav .open .nav-item {
   padding: 5rem 0rem;
   position: relative;
   z-index: 0;
-}
-
-#wayToGoAnim {
-  padding-top: 10rem;
 }
 
 .job-opport {
@@ -1313,7 +1325,7 @@ nav .open .nav-item {
 /* pop up */
 /* popup box style */
 .job-header {
-  padding: 5rem 6rem;
+  padding: 10rem 5rem 5rem;
 }
 
 .strike {
@@ -1586,7 +1598,7 @@ button.close {
 /* Tablet */
 @media all and (max-width: 456px) {
   #Programmer .strike::after {
-    width: 173px;
+    width: 289px;
     bottom: 28px;
   }
   #WebDesigner .strike::after {
@@ -1741,6 +1753,10 @@ button.close {
     right: 9vw;
     top: 8vh;
   }
+  .way-wrapper {
+    width: 70rem;
+    height: 60rem;
+  }
 }
 
 /* Large Desktop */
@@ -1777,10 +1793,17 @@ button.close {
     height: 20px;
   }
   #Programmer .strike::after {
-    width: 71%;
+    width: 95%;
   }
   #WebDesigner .strike::after {
     width: 430px;
+  }
+}
+
+/* Large Desktop */
+@media all and (min-width: 1920px) {
+  #Programmer .strike::after {
+    width: 95%;
   }
 }
 
@@ -1814,7 +1837,7 @@ button.close {
 }
 
 .core-value h2 {
-  font-size: 9rem;
+  font-size: 7.5rem;
   margin-bottom: 5rem;
 }
 
@@ -2684,8 +2707,7 @@ label {
   .deco-wrap2-IE {
     display: block;
   }
-  .notTooBig-IE,
-  .wayToGo-IE {
+  .notTooBig-IE {
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -2698,11 +2720,6 @@ label {
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(../images/IE/IE_NotTooBig.png);
-  }
-  .wayToGo-IE {
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/IE/IE_WayToGoTeam.png);
   }
   #nav1 {
     position: relative;
@@ -2852,6 +2869,10 @@ label {
   .deco-wrap2-IE {
     right: 3%;
     bottom: -25%;
+  }
+  .way-wrapper {
+    width: 70rem;
+    height: 60rem;
   }
 }
 

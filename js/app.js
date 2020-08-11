@@ -89,17 +89,5 @@ var animation8 = bodymovin.loadAnimation({
 });
 
 
-// Way To Go lottie
-LottieInteractivity.create({
-  mode:"scroll",
-  player:'#wayToGoAnim',
-  actions: [
-    {
-      visibility:[0.1, 0.6],
-      type: "seek",
-      frames: [1,130]
-    }
-  ]  
-});
 
 

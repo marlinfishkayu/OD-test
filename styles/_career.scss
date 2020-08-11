@@ -16,18 +16,30 @@
     text-align: left;
     padding-bottom: 5rem;
 }
-.wayToGo-IE{
-    display: none;
+.way-wrapper{
+    width: 50rem;
+    height: 40rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
 }
+.wayToGo-IE{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/IE/IE_WayToGoTeam.png);
+}
+
+#wayToGoAnim{
+    padding-top: 10rem;
+}
+
 /* Job Offer style */
 .job-list {
     padding: 5rem 0rem;
     position: relative;
     z-index: 0;
-}
-
-#wayToGoAnim{
-    padding-top: 10rem;
 }
 
 .job-opport {
@@ -84,7 +96,7 @@
 /* popup box style */
 
 .job-header {
-    padding: 5rem 6rem;
+    padding: 10rem 5rem 5rem;
 }
 .strike {
     font-size: 4.375rem;
@@ -322,7 +334,7 @@ button.close{
 /* Tablet */
 @media all and (max-width: 456px) {
     #Programmer .strike::after {
-        width: 173px;
+        width: 289px;
         bottom: 28px;
     }
     #WebDesigner .strike::after {
@@ -464,7 +476,6 @@ button.close{
         right: 9vw;
         top: 8vh;
     }
-    
     .fancybox-slide--html {
         padding-top: 44px;
     }
@@ -474,6 +485,10 @@ button.close{
     .close-small {
         right: 9vw;
         top: 8vh;
+    }
+    .way-wrapper{
+        width: 70rem;
+        height: 60rem;
     }
 }
 /* Large Desktop */
